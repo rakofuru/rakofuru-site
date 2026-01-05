@@ -1,0 +1,25 @@
+[
+  {
+    "id": "comment-0001",
+    "farmSlug": "midoriyama-blueberry",
+    "authorName": "田中美咲",
+    "authorRole": "user",
+    "contentHtml": "<p>家族で伺いました。木陰が多く、暑い日でも過ごしやすかったです。</p>",
+    "createdAt": "2024-07-12T14:20:00+09:00",
+    "legacy": {
+      "wpCommentId": 201
+    }
+  },
+  {
+    "id": "comment-0002",
+    "farmSlug": "midoriyama-blueberry",
+    "parentId": "comment-0001",
+    "authorName": "みどり山ブルーベリー園",
+    "authorRole": "owner",
+    "contentHtml": "<p>ご来園ありがとうございました。次回は晩生の品種もぜひお試しください。</p>",
+    "createdAt": "2024-07-13T09:05:00+09:00",
+    "legacy": {
+      "wpCommentId": 202
+    }
+  }
+]

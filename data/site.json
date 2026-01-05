@@ -1,0 +1,15 @@
+{
+  "name": "らこふる",
+  "tagline": "千葉県のブルーベリー農園さがしは「らこふる」で",
+  "description": "千葉県内のブルーベリー農園を探せる、農園ごとの魅力と最新情報をまとめた情報サイト。",
+  "locale": "ja",
+  "timezone": "Asia/Tokyo",
+  "canonicalDomain": "https://rakofuru.com",
+  "seo": {
+    "titleTemplate": "%s | らこふる",
+    "defaultTitle": "らこふる",
+    "defaultDescription": "千葉県内のブルーベリー農園を探せる、農園ごとの魅力と最新情報をまとめた情報サイト。",
+    "robots": "index,follow",
+    "ogImageUrl": "https://rakofuru.com/og/default.jpg"
+  }
+}
