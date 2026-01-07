@@ -84,7 +84,7 @@ export function CommentSection() {
                                 <div className="mt-2 flex items-center justify-end">
                                     <button className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
                                         <MessageCircle className="h-3 w-3" />
-                                        返信 (オーナー用)
+                                        返信
                                     </button>
                                 </div>
                                 {/* Reply */}
