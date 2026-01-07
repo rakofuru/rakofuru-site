@@ -112,10 +112,7 @@ export default async function FarmDetailPage({ params }: PageProps) {
                 </div>
               )}
 
-              {/* 3. Comment Section (Local) */}
-              <div className="border-t border-dashed border-slate-300 pt-8">
-                <CommentSection />
-              </div>
+
 
               {/* 4. Access (Validation) */}
               {accessSection && (
@@ -134,6 +131,11 @@ export default async function FarmDetailPage({ params }: PageProps) {
                   ))}
                 </div>
               )}
+
+              {/* 7. Comment Section (Moved Here) */}
+              <div className="border-t border-dashed border-slate-300 pt-8">
+                <CommentSection />
+              </div>
             </div>
 
             {/* Sidebar - Quick Actions & Map */}
@@ -162,15 +164,17 @@ export default async function FarmDetailPage({ params }: PageProps) {
                         </a>
                       </Button>
                     )}
-                    {/* Map */}
-                    {farm.location.googleMapsPlaceUrl && (
-                      <Button variant="secondary" className="w-full justify-start gap-2" size="lg" asChild>
-                        <a href={farm.location.googleMapsPlaceUrl} target="_blank" rel="noopener noreferrer">
-                          <Map className="h-4 w-4" />
-                          Googleマップ
-                        </a>
-                      </Button>
-                    )}
+                    {/* Map - Use place URL preferentially, fallback to search query */}
+                    <Button variant="secondary" className="w-full justify-start gap-2" size="lg" asChild>
+                      <a
+                        href={farm.location.googleMapsPlaceUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(farm.location.addressText || farm.title)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Map className="h-4 w-4" />
+                        Googleマップで開く
+                      </a>
+                    </Button>
                     {/* Owner Join Link */}
                     <div className="pt-4 mt-4 border-t border-slate-100 text-center">
                       <Link href="/partners/join" className="text-xs text-muted-foreground hover:text-primary transition-colors underline">
