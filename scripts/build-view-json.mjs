@@ -233,6 +233,16 @@ function buildViewJson() {
         if (iframeSrc && iframeSrc.includes('google.com/maps/embed')) {
           view.googleMapsEmbed = iframeSrc;
         }
+
+        // Data Cleanup: Remove "Parking: X cars" text from Access section
+        // User reports "There is a Parking notation under the iframe in Access widget".
+        // Regex to target likely patterns: "駐車場.*台", "Parking.*cars", lines containing "駐車場" that act as noise.
+        // Also remove "Details Here" again just in case.
+        contentHtml = contentHtml
+          .replace(/駐車場.*?台/g, '') // Remove "駐車場 50台" etc.
+          .replace(/駐車場有/g, '')
+          .replace(/<br\s*\/?>\s*<a[^>]*>■詳細はコチラ<\/a>/gi, '')
+          .replace(/<a[^>]*>■詳細はコチラ<\/a>/gi, '');
       }
 
       view.sections.push({

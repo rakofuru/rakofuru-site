@@ -124,20 +124,7 @@ export default async function FarmDetailPage({ params }: PageProps) {
                 </div>
               )}
 
-              {/* 5. Google Map (Explicitly below Access) */}
-              {farm.googleMapsEmbed && (
-                <div className="rounded-xl overflow-hidden shadow-sm border border-slate-200 mt-4">
-                  <iframe
-                    src={farm.googleMapsEmbed}
-                    width="100%"
-                    height="400"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  />
-                </div>
-              )}
+              {/* 5. Google Map: REMOVED as per user feedback (redundant/unwanted) */}
 
               {/* 6. Other Sections (Details) */}
               {otherSections.length > 0 && (
@@ -184,10 +171,10 @@ export default async function FarmDetailPage({ params }: PageProps) {
                         </a>
                       </Button>
                     )}
-                    {/* Owner Login Link */}
+                    {/* Owner Join Link */}
                     <div className="pt-4 mt-4 border-t border-slate-100 text-center">
-                      <Link href="/login_29966" className="text-xs text-muted-foreground hover:text-primary transition-colors underline">
-                        農園オーナーの方はこちら
+                      <Link href="/partners/join" className="text-xs text-muted-foreground hover:text-primary transition-colors underline">
+                        農園掲載のお申し込みはこちら
                       </Link>
                     </div>
                   </div>

@@ -94,19 +94,27 @@ export default function FarmEditPage({ params }: { params: Promise<{ id: string 
 
                     <div className="grid grid-cols-2 gap-4">
                         <div>
-                            <label className="block text-sm font-bold mb-1">料金 (目安)</label>
+                            <label className="block text-sm font-bold mb-1">料金 (目安テキスト)</label>
+                            <input className="w-full border rounded p-2" value={formData.pricingBrief || ""} onChange={e => setFormData({ ...formData, pricingBrief: e.target.value })} />
+                        </div>
+                        <div>
+                            <label className="block text-sm font-bold mb-1">料金 (検索用数値)</label>
                             <input type="number" className="w-full border rounded p-2" value={formData.priceValue || 0} onChange={e => setFormData({ ...formData, priceValue: parseInt(e.target.value) })} />
                         </div>
                         <div>
                             <label className="block text-sm font-bold mb-1">営業時期 (テキスト)</label>
                             <input className="w-full border rounded p-2" value={formData.seasonBrief || ""} onChange={e => setFormData({ ...formData, seasonBrief: e.target.value })} />
                         </div>
+                        <div>
+                            <label className="block text-sm font-bold mb-1">営業時間 (テキスト)</label>
+                            <input className="w-full border rounded p-2" value={formData.hoursBrief || ""} onChange={e => setFormData({ ...formData, hoursBrief: e.target.value })} />
+                        </div>
                     </div>
 
-                    <div>
+                    <div className="mt-4">
                         <label className="block text-sm font-bold mb-2">特徴タグ</label>
                         <div className="flex flex-wrap gap-2">
-                            {["駐車場あり", "食べ放題", "要予約", "雨天OK"].map(tag => (
+                            {["駐車場あり", "食べ放題", "要予約", "雨天OK", "持ち帰り可"].map(tag => (
                                 <label key={tag} className="flex items-center gap-2 border p-2 rounded cursor-pointer hover:bg-slate-50">
                                     <input
                                         type="checkbox"
@@ -123,6 +131,68 @@ export default function FarmEditPage({ params }: { params: Promise<{ id: string 
                             ))}
                         </div>
                     </div>
+
+                    <div className="mt-4 border-t pt-4">
+                        <h4 className="font-bold mb-2">基本情報 (テーブル)</h4>
+                        <div className="grid gap-2">
+                            <div>
+                                <label className="block text-xs font-medium text-gray-500">電話番号</label>
+                                <input className="w-full border rounded p-1" value={(formData.infoTable as any)?.["電話番号"] || ""} onChange={e => setFormData({ ...formData, infoTable: { ...formData.infoTable, "電話番号": e.target.value } })} />
+                            </div>
+                            <div>
+                                <label className="block text-xs font-medium text-gray-500">所在地</label>
+                                <textarea className="w-full border rounded p-1 h-20" value={(formData.infoTable as any)?.["所在地"] || ""} onChange={e => setFormData({ ...formData, infoTable: { ...formData.infoTable, "所在地": e.target.value } })} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-4 border-t pt-4">
+                        <h4 className="font-bold mb-2">外部連携</h4>
+                        <div className="space-y-2">
+                            <div>
+                                <label className="block text-xs font-medium text-gray-500">公式サイト URL</label>
+                                <input className="w-full border rounded p-1" value={formData.location?.officialUrl || ""} onChange={e => setFormData({ ...formData, location: { ...formData.location, officialUrl: e.target.value } })} />
+                            </div>
+                            <div>
+                                <label className="block text-xs font-medium text-gray-500">Google Map URL</label>
+                                <input className="w-full border rounded p-1" value={formData.location?.googleMapsPlaceUrl || ""} onChange={e => setFormData({ ...formData, location: { ...formData.location, googleMapsPlaceUrl: e.target.value } })} />
+                            </div>
+                            <div>
+                                <label className="block text-xs font-medium text-gray-500">Google Review Widget ID</label>
+                                <input className="w-full border rounded p-1" value={formData.reviewWidgetId || ""} onChange={e => setFormData({ ...formData, reviewWidgetId: e.target.value })} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Content Sections (HTML Mock Editor) */}
+                <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 space-y-4 md:col-span-2">
+                    <h3 className="font-bold border-b pb-2">セクションコンテンツ</h3>
+                    {formData.sections?.map((section: any, idx: number) => (
+                        <div key={idx} className="border p-4 rounded bg-slate-50">
+                            <input
+                                className="font-bold w-full border-b bg-transparent mb-2"
+                                value={section.title}
+                                onChange={e => {
+                                    const newSections = [...formData.sections];
+                                    newSections[idx].title = e.target.value;
+                                    setFormData({ ...formData, sections: newSections });
+                                }}
+                            />
+                            <textarea
+                                className="w-full border rounded p-2 h-32 font-mono text-xs"
+                                value={section.contentHtml}
+                                onChange={e => {
+                                    const newSections = [...formData.sections];
+                                    newSections[idx].contentHtml = e.target.value;
+                                    setFormData({ ...formData, sections: newSections });
+                                }}
+                            />
+                        </div>
+                    ))}
+                    <Button variant="outline" size="sm" onClick={() => setFormData({ ...formData, sections: [...(formData.sections || []), { title: "新規セクション", contentHtml: "<p>内容...</p>" }] })}>
+                        + セクション追加
+                    </Button>
                 </div>
 
             </div>
