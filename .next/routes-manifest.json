@@ -28,6 +28,14 @@
         "nxtPslug": "nxtPslug"
       },
       "namedRegex": "^/farms/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[slug]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPslug>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [

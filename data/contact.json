@@ -1,0 +1,33 @@
+[
+  {
+    "id": "contact-69",
+    "title": "お問い合わせ",
+    "fields": [
+      {
+        "name": "氏名",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "メールアドレス",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "題名",
+        "required": true,
+        "description": null
+      },
+      {
+        "name": "メッセージ本文 (任意)",
+        "required": false,
+        "description": null
+      }
+    ],
+    "legacy": {
+      "wpPostId": 69,
+      "cf7Id": 69,
+      "shortcode": "[contact-form-7 id=\"69\" title=\"お問い合わせ\"]"
+    }
+  }
+]
