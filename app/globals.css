@@ -89,3 +89,45 @@
     @apply bg-background text-foreground;
   }
 }
+
+.farm-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.farm-content td {
+  border: 1px solid var(--border);
+  padding: 0.75rem 0.9rem;
+  vertical-align: top;
+}
+
+.farm-content tr td:first-child {
+  width: 30%;
+  background: var(--muted);
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.farm-content tr:nth-child(even) td {
+  background: color-mix(in oklab, var(--muted) 55%, transparent);
+}
+
+.farm-content a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.farm-content p {
+  margin-top: 0.75rem;
+  line-height: 1.7;
+}
+
+.farm-content h2,
+.farm-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  color: var(--foreground);
+}

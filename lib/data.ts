@@ -90,7 +90,14 @@ export const tags = tagsData as Tags
 export const searchIndex = searchIndexData as SearchIndexEntry[]
 export const site = siteData as SiteMeta
 
-export const areas = tags.areas.map((slug) => ({ slug, name: slug }))
+const areaLabelMap: Record<string, string> = {
+  chiba: "千葉",
+}
+
+export const areas = tags.areas.map((slug) => ({
+  slug,
+  name: areaLabelMap[slug] ?? slug,
+}))
 
 export const getFarmBySlug = (slug: string) => farms.find((farm) => farm.slug === slug)
 export const getPageBySlug = (slug: string) => pages.find((page) => page.slug === slug)

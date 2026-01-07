@@ -4,6 +4,7 @@ import { useState, useMemo } from "react"
 import { SearchHero } from "./search-hero"
 import { AreaFilter } from "./area-filter"
 import { FarmList } from "./farm-list"
+import { FarmListSection } from "./farm-list-section"
 import { areas, farms, searchIndex } from "@/lib/data"
 
 export function SearchResults() {
@@ -56,6 +57,8 @@ export function SearchResults() {
     return counts
   }, [])
 
+  const isFiltered = searchQuery.trim().length > 0 || selectedArea !== null
+
   return (
     <>
       <SearchHero searchQuery={searchQuery} onSearchChange={setSearchQuery} />
@@ -65,18 +68,22 @@ export function SearchResults() {
         onAreaChange={setSelectedArea}
         farmCounts={farmCounts}
       />
-      <section className="py-8">
-        <div className="container mx-auto px-4">
-          <div className="mb-4 flex items-center justify-between">
-            <p className="text-sm text-muted-foreground">
-              {filteredFarms.length}件の農園
-              {selectedArea && ` - ${areas.find((a) => a.slug === selectedArea)?.name}`}
-              {searchQuery && ` - 「${searchQuery}」`}
-            </p>
+      {isFiltered ? (
+        <section className="py-8">
+          <div className="container mx-auto px-4">
+            <div className="mb-4 flex items-center justify-between">
+              <p className="text-sm text-muted-foreground">
+                {filteredFarms.length}件の農園
+                {selectedArea && ` - ${areas.find((a) => a.slug === selectedArea)?.name}`}
+                {searchQuery && ` - 「${searchQuery}」`}
+              </p>
+            </div>
+            <FarmList farms={farmListItems} areas={areas} />
           </div>
-          <FarmList farms={farmListItems} areas={areas} />
-        </div>
-      </section>
+        </section>
+      ) : (
+        <FarmListSection />
+      )}
     </>
   )
 }

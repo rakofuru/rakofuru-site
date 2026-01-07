@@ -185,10 +185,12 @@ export default async function FarmDetailPage({ params }: PageProps) {
               {/* Description */}
               <section className="mb-8">
                 <h2 className="mb-4 text-lg font-bold text-foreground">詳細情報</h2>
-                <div
-                  dangerouslySetInnerHTML={{ __html: farm.bodyHtml }}
-                  className="prose prose-sm max-w-none text-muted-foreground [&_h3]:mb-2 [&_h3]:mt-4 [&_h3]:text-base [&_h3]:font-bold [&_h3]:text-foreground [&_li]:text-muted-foreground [&_p]:mb-3 [&_p]:leading-relaxed [&_ul]:mb-3 [&_ul]:list-disc [&_ul]:pl-5"
-                />
+                <div className="overflow-x-auto rounded-xl border border-border bg-card/60 p-4">
+                  <div
+                    dangerouslySetInnerHTML={{ __html: farm.bodyHtml }}
+                    className="farm-content max-w-none text-muted-foreground"
+                  />
+                </div>
               </section>
 
               {/* Comments */}

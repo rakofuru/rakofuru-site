@@ -5,6 +5,7 @@ interface FarmHeroProps {
 }
 
 const categoryLabels: Record<string, string> = {
+  chiba: "千葉エリア",
   "chiba-city": "千葉市エリア",
   boso: "房総エリア",
   "north-chiba": "北総エリア",
