@@ -11,18 +11,20 @@ export function CommentSection() {
         { id: 2, author: "家族連れ", text: "駐車場が広くて助かりました。", date: "2023/07/20" }
     ])
     const [input, setInput] = useState("")
+    const [name, setName] = useState("")
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
-        if (!input.trim()) return
+        if (!input.trim() || !name.trim()) return
         const newComment = {
             id: Date.now(),
-            author: "ゲストユーザー", // Mock
+            author: name,
             text: input,
             date: new Date().toLocaleDateString()
         }
         setComments([newComment, ...comments])
         setInput("")
+        setName("")
     }
 
     return (
@@ -33,24 +35,32 @@ export function CommentSection() {
             </h2>
 
             {/* Input */}
-            <form onSubmit={handleSubmit} className="mb-8">
-                <div className="flex gap-4">
-                    <div className="h-10 w-10 shrink-0 rounded-full bg-slate-100 flex items-center justify-center">
-                        <User className="h-5 w-5 text-slate-400" />
+            <form onSubmit={handleSubmit} className="mb-8 bg-slate-50 p-4 rounded-lg border border-slate-100">
+                <div className="grid gap-4">
+                    <div>
+                        <label className="text-sm font-bold text-gray-700 mb-1 block">お名前</label>
+                        <input
+                            type="text"
+                            className="w-full md:w-1/2 rounded-md border border-input p-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary"
+                            placeholder="例: ブルーベリー好き"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                        />
                     </div>
-                    <div className="flex-1 space-y-3">
+                    <div>
+                        <label className="text-sm font-bold text-gray-700 mb-1 block">コメント</label>
                         <textarea
-                            className="w-full rounded-lg border border-input p-3 text-sm focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary min-h-[80px] resize-none"
+                            className="w-full rounded-md border border-input p-3 text-sm focus:border-primary focus:ring-1 focus:ring-primary min-h-[80px] resize-none"
                             placeholder="農園への応援コメントや感想を書こう..."
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                         />
-                        <div className="flex justify-end">
-                            <Button disabled={!input.trim()} className="gap-2 font-bold">
-                                <Send className="h-4 w-4" />
-                                コメントを投稿
-                            </Button>
-                        </div>
+                    </div>
+                    <div className="flex justify-end">
+                        <Button disabled={!input.trim() || !name.trim()} className="gap-2 font-bold">
+                            <Send className="h-4 w-4" />
+                            コメントを投稿
+                        </Button>
                     </div>
                 </div>
             </form>
@@ -71,7 +81,12 @@ export function CommentSection() {
                                 <p className="text-sm text-gray-700 leading-relaxed bg-slate-50 p-3 rounded-lg rounded-tl-none">
                                     {comment.text}
                                 </p>
-
+                                <div className="mt-2 flex items-center justify-end">
+                                    <button className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors flex items-center gap-1">
+                                        <MessageCircle className="h-3 w-3" />
+                                        返信 (オーナー用)
+                                    </button>
+                                </div>
                                 {/* Reply */}
                                 {comment.reply && (
                                     <div className="mt-3 ml-4 pl-4 border-l-2 border-primary/20">

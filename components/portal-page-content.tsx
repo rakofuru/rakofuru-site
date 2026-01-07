@@ -44,7 +44,18 @@ export function PortalPageContent() {
 
             // 3. Season
             if (filters.season !== "all") {
-                if (!farm.seasonBrief.includes(filters.season)) return false;
+                let targetMonth = 0;
+                if (filters.season === "6月") targetMonth = 6;
+                if (filters.season === "7月") targetMonth = 7;
+                if (filters.season === "8月") targetMonth = 8;
+
+                // Use the precise range array if available
+                if (farm.seasonMonths && farm.seasonMonths.length > 0) {
+                    if (!farm.seasonMonths.includes(targetMonth)) return false;
+                } else {
+                    // Fallback to string match
+                    if (!farm.seasonBrief.includes(filters.season)) return false;
+                }
             }
 
             // 4. Features

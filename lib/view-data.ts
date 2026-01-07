@@ -33,6 +33,7 @@ export interface FarmView {
     priceValue: number;
     hasTakeout: boolean;
     seasonBrief: string;
+    seasonMonths: number[];
     sections: {
         title: string;
         contentHtml: string;

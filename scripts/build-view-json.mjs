@@ -145,16 +145,54 @@ function buildViewJson() {
       $table.remove();
     }
 
-    view.infoTable = infoTable;
+    // Randomize Thumbnail if default
+    // We have farm-0.png, farm-1.png, farm-2.png
+    // Simple hash based on ID to be deterministic
+    const farmIdNum = parseInt(farm.id) || 0;
+    const thumbIndex = farmIdNum % 3;
+    let thumbSrc = `/images/farm-${thumbIndex}.png`;
+
+    // Force Override Logic
+    // User requested "Replace WP Image URLs with local placeholder logic if original WP image is missing/broken (or force override as per request)."
+    // And "Thumbnails: Randomize assignment (No people)".
+    // So we force use local randomized images.
+
+    view.heroImage = {
+      srcUrl: thumbSrc,
+      width: 800,
+      height: 600
+    };
+
     view.features = features;
     view.pricingBrief = pricingBrief;
     view.parkingBrief = parkingBrief;
-    view.hoursBrief = hoursBrief;
 
     // Phase 5 fields
     view.priceValue = priceValue;
     view.hasTakeout = hasTakeout;
     view.seasonBrief = seasonBrief;
+
+    // Season Range Logic
+    // Parse "6月〜8月" or "6月下旬〜8月" to [6, 7, 8]
+    const seasonMonths = [];
+    if (seasonBrief) {
+      const rangeMatch = seasonBrief.match(/(\d{1,2})月.*?〜.*?(\d{1,2})月/);
+      if (rangeMatch) {
+        const start = parseInt(rangeMatch[1], 10);
+        const end = parseInt(rangeMatch[2], 10);
+        if (!isNaN(start) && !isNaN(end)) {
+          for (let m = start; m <= end; m++) {
+            seasonMonths.push(m);
+          }
+        }
+      } else {
+        // Single month check or simple list
+        if (seasonBrief.includes('6月')) seasonMonths.push(6);
+        if (seasonBrief.includes('7月')) seasonMonths.push(7);
+        if (seasonBrief.includes('8月')) seasonMonths.push(8);
+      }
+    }
+    view.seasonMonths = seasonMonths;
 
     // 3. Extract Sections (H2 based)
     // We iterate through all top-level elements to group them into sections.

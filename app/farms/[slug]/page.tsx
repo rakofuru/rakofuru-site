@@ -123,13 +123,23 @@ export default async function FarmDetailPage({ params }: PageProps) {
                   <FarmSection title={accessSection.title} contentHtml={accessSection.contentHtml} />
                 </div>
               )}
-              {parkingSection && (
-                <div className="border-t border-dashed border-slate-300 pt-8" id="parking">
-                  <FarmSection title={parkingSection.title} contentHtml={parkingSection.contentHtml} />
+
+              {/* 5. Google Map (Explicitly below Access) */}
+              {farm.googleMapsEmbed && (
+                <div className="rounded-xl overflow-hidden shadow-sm border border-slate-200 mt-4">
+                  <iframe
+                    src={farm.googleMapsEmbed}
+                    width="100%"
+                    height="400"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
                 </div>
               )}
 
-              {/* 5. Other Sections (Details) */}
+              {/* 6. Other Sections (Details) */}
               {otherSections.length > 0 && (
                 <div className="border-t border-dashed border-slate-300 pt-8 space-y-12">
                   {otherSections.map((section, idx) => (
@@ -174,6 +184,12 @@ export default async function FarmDetailPage({ params }: PageProps) {
                         </a>
                       </Button>
                     )}
+                    {/* Owner Login Link */}
+                    <div className="pt-4 mt-4 border-t border-slate-100 text-center">
+                      <Link href="/login_29966" className="text-xs text-muted-foreground hover:text-primary transition-colors underline">
+                        農園オーナーの方はこちら
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
