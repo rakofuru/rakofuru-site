@@ -2,6 +2,8 @@
   "/[slug]/page": "app/[slug]/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/contact/page": "app/contact/page.js",
   "/farms/[slug]/page": "app/farms/[slug]/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js"
 }

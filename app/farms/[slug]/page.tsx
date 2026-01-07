@@ -1,4 +1,3 @@
-
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ChevronLeft, MapPin, Phone, Globe, Map, Star } from "lucide-react"
@@ -10,6 +9,7 @@ import { FarmInfoTable } from "@/components/farm-info-table"
 import { FarmSection } from "@/components/farm-section"
 import { ReviewWidget } from "@/components/review-widget"
 import { UnifiedInfoBlock } from "@/components/unified-info-block"
+import { CommentSection } from "@/components/comment-section"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -58,6 +58,11 @@ export default async function FarmDetailPage({ params }: PageProps) {
   const areaName = getAreaName(farm.categorySlug);
   const heroImageUrl = farm.heroImage?.srcUrl || "/placeholder.svg"
 
+  // Identifying Sections for specific ordering
+  const accessSection = farm.sections.find(s => s.title.includes("アクセス"));
+  const parkingSection = farm.sections.find(s => s.title.includes("駐車場") && !s.title.includes("アクセス")); // Avoid double match if possible
+  const otherSections = farm.sections.filter(s => !s.title.includes("アクセス") && !s.title.includes("駐車場"));
+
   return (
     <div className="flex min-h-screen flex-col bg-slate-50">
       <Header />
@@ -91,34 +96,52 @@ export default async function FarmDetailPage({ params }: PageProps) {
         <div className="container mx-auto px-4 py-8 md:py-12">
           <div className="grid gap-8 lg:grid-cols-3">
             {/* Main Content */}
-            <div className="lg:col-span-2 space-y-10">
+            <div className="lg:col-span-2 space-y-12">
 
               {/* 1. Unified Info Block (The Decision Core) */}
               <UnifiedInfoBlock farm={farm} />
 
-              {/* 2. Sections (Access, Parking, etc) */}
-              <div className="space-y-12">
-                {farm.sections.map((section, idx) => (
-                  <FarmSection key={idx} title={section.title} contentHtml={section.contentHtml} />
-                ))}
-              </div>
-
-              {/* 3. Review Widget */}
+              {/* 2. Review Widget (Google Map) - User requested ABOVE Access */}
               {farm.reviewWidgetId && (
-                <div className="pt-8 border-t border-dashed border-slate-300">
+                <div className="border-t border-dashed border-slate-300 pt-8">
                   <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                     <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
-                    この農園の口コミ
+                    この農園の口コミ (Google Maps)
                   </h2>
                   <ReviewWidget id={farm.reviewWidgetId} />
                 </div>
               )}
 
+              {/* 3. Comment Section (Local) */}
+              <div className="border-t border-dashed border-slate-300 pt-8">
+                <CommentSection />
+              </div>
+
+              {/* 4. Access (Validation) */}
+              {accessSection && (
+                <div className="border-t border-dashed border-slate-300 pt-8" id="access">
+                  <FarmSection title={accessSection.title} contentHtml={accessSection.contentHtml} />
+                </div>
+              )}
+              {parkingSection && (
+                <div className="border-t border-dashed border-slate-300 pt-8" id="parking">
+                  <FarmSection title={parkingSection.title} contentHtml={parkingSection.contentHtml} />
+                </div>
+              )}
+
+              {/* 5. Other Sections (Details) */}
+              {otherSections.length > 0 && (
+                <div className="border-t border-dashed border-slate-300 pt-8 space-y-12">
+                  {otherSections.map((section, idx) => (
+                    <FarmSection key={idx} title={section.title} contentHtml={section.contentHtml} />
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* Sidebar - Quick Actions & Map */}
             <aside className="lg:col-span-1 space-y-6">
-              <div className="sticky top-20 space-y-6">
+              <div className="sticky top-24 space-y-6">
                 {/* Action Card */}
                 <div className="rounded-xl border border-border bg-white p-6 shadow-sm">
                   <h3 className="mb-4 font-bold text-gray-900">クイックアクション</h3>
@@ -126,7 +149,7 @@ export default async function FarmDetailPage({ params }: PageProps) {
                     {/* Phone */}
                     {(farm.infoTable as any)?.["電話番号"] && (
                       <Button className="w-full justify-start gap-2" size="lg" asChild>
-                        {/* Extract number or just link */}
+                        {/* Simple href extraction or fallback */}
                         <a href={(farm.infoTable as any)["電話番号"].match(/href="([^"]*)"/)?.[1] || "#"}>
                           <Phone className="h-4 w-4" />
                           電話で問い合わせ

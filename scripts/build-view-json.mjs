@@ -34,7 +34,12 @@ function buildViewJson() {
       slug: farm.slug,
       categorySlug: farm.categorySlug, // Will be mapped to area-master in UI
       title: farm.title,
-      heroImage: farm.heroImage,
+      heroImage: {
+        srcUrl: "/images/default-farm.png",
+        width: 800,
+        height: 600,
+        original: farm.heroImage // Keep legacy ref if needed
+      },
       location: farm.location,
       publishedAt: farm.publishedAt,
       updatedAt: farm.updatedAt,
@@ -78,12 +83,24 @@ function buildViewJson() {
           const valueText = $tds.eq(1).text().trim();
 
           if (key && valueText) {
-            infoTable[key] = valueHtml;
+            // Clean up values before saving
+            // Remove "Details Here" links found in Parking and Access
+            if (key.includes('駐車場') || key.includes('アクセス')) {
+              const clean = valueHtml
+                .replace(/<br\s*\/?>\s*<a[^>]*>■詳細はコチラ<\/a>/gi, '')
+                .replace(/<a[^>]*>■詳細はコチラ<\/a>/gi, '');
+              infoTable[key] = clean;
+            } else {
+              infoTable[key] = valueHtml;
+            }
 
             // Feature Tag Extraction & Phase 5 Data
             if (key.includes('駐車場') && (valueText.includes('あり') || valueText.includes('台'))) {
               features.push('駐車場あり');
-              parkingBrief = valueText.split(/<br\s*\/?>/i)[0].replace('あり｜', '');
+              parkingBrief = valueText.split(/<br\s*\/?>/i)[0]
+                .replace('あり｜', '')
+                .replace('■詳細はコチラ', '')
+                .trim();
             }
             if (key.includes('料金')) {
               if (valueText.includes('食べ放題')) features.push('食べ放題');
@@ -112,7 +129,13 @@ function buildViewJson() {
               // Format often: "6月~9中旬" or similar
               const seasonMatch = valueText.match(/(\d{1,2})月/);
               if (seasonMatch) {
-                seasonBrief = valueText.split(/\n|<br\s*\/?>/i).find(l => l.includes('月')) || "";
+                const rawLine = valueText.split(/\n|<br\s*\/?>/i).find(l => l.includes('月')) || "";
+                // Remove "Early/Late" (上旬/中旬/下旬) and "Planned" (予定) for cleaner UI
+                seasonBrief = rawLine
+                  .replace(/上旬|中旬|下旬/g, '')
+                  .replace(/予定/g, '')
+                  .replace(/[()（）]/g, '')
+                  .trim();
               }
             }
           }
