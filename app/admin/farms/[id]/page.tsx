@@ -15,6 +15,7 @@ export default function FarmEditPage({ params }: { params: Promise<{ id: string 
     // For simplicity:
     const [farmId, setFarmId] = useState<string>("")
     const [formData, setFormData] = useState<any>(null)
+    const [isSaving, setIsSaving] = useState(false); // Added for save state
 
     useEffect(() => {
         params.then(p => {

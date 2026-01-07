@@ -39,6 +39,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "1500円小学生以上：1000円未就学児：500円",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -88,6 +89,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "1800円小学生以上：1000円未就学児：500円4歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 1800,
@@ -138,6 +140,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "小学生以上：1500円未就学児：1000円3歳以下：無料",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -188,6 +191,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "　1000円〜（入園料＋お持ち帰り1ケース）　お持ち帰りケース　A:1000円/100g　B:1400円/250g　C:1800円/500g小学生　300円（入園料）2歳以上　100円2歳以下　無料　追加1ケース　300円〜　容量に応じて変動いたします。",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -238,6 +242,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "2000円4歳以上：1000円4歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 2000,
@@ -289,6 +294,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "高校生以上：1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -339,6 +345,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 3000,
@@ -389,6 +396,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "5歳以上：1,000円5歳未満：0円",
     "parkingBrief": "無料",
     "priceValue": 0,
@@ -440,6 +448,7 @@
       "要予約",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "500円中学生未満：300円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 500,
@@ -489,6 +498,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "入園料無料100g/160円",
     "parkingBrief": "無料",
     "priceValue": 100,
@@ -539,6 +549,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "",
     "parkingBrief": "無料",
     "priceValue": 0,
@@ -589,6 +600,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "大パック：1300円中パック：1000円小パック：600円",
     "parkingBrief": "無料",
     "priceValue": 1300,
@@ -639,6 +651,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "1000円5歳以上：500円5歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -688,6 +701,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "",
     "parkingBrief": "無料",
     "priceValue": 0,
@@ -738,6 +752,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以下：500円",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -787,6 +802,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 3000,
@@ -837,6 +853,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "4歳以上： 550円（入園料）4歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 550,
@@ -886,6 +903,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "小学生以上：800円4歳以上：600円4歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 800,
@@ -936,6 +954,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "入園料：200円小学生以下：無料",
     "parkingBrief": "無料",
     "priceValue": 200,
@@ -984,6 +1003,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1035,6 +1055,7 @@
       "要予約",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "小学生以上：1500円小学生未満：1000円",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -1085,6 +1106,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "小学生以上：600円小学生以下：300円2歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 600,
@@ -1134,6 +1156,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "高校生以上：500円小学生以上：300円小学生未満：無料",
     "parkingBrief": "無料",
     "priceValue": 500,
@@ -1184,6 +1207,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "1800円小学生以上または65歳以上：1300円4歳以上：600円4歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 1800,
@@ -1235,6 +1259,7 @@
       "要予約",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "入園料：500円※1kg未満の持ち帰りの場合入園料1000円",
     "parkingBrief": "無料",
     "priceValue": 500,
@@ -1285,6 +1310,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "1800円小学生以上：1200円小学生未満：800円",
     "parkingBrief": "無料",
     "priceValue": 1800,
@@ -1334,6 +1360,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1383,6 +1410,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1434,6 +1462,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "■2時間食べ放題 （予約なし料金）1500円 （1800円）小学生以上：800円（1000円）未就学児　：無料お土産 100g付き",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -1485,6 +1514,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "■食べ放題 (30分)高校生以上：1500円/30分中高生以上：1000円/30分小学生　　：700円/30分未就学児　：500円/30分■摘み放題 500円/100g入場料: 高校生以上：1000円高校生以下：500円",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -1532,6 +1562,7 @@
     "reviewWidgetId": null,
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12940.593182879775!2d140.1720265!3d35.8208371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60227d9a17a45f5f%3A0xed4ef45c55c8b0e3!2z44OW44Or44O844OZ44Oq44O844Kt44OD44K6!5e0!3m2!1sja!2sjp!4v1699885992469!5m2!1sja!2sjp",
     "features": [],
+    "comments": [],
     "pricingBrief": "",
     "parkingBrief": "",
     "priceValue": 0,
@@ -1578,6 +1609,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "■摘み放題 200円/100g入場料:400円小学生以上：200円未就学児　：無料",
     "parkingBrief": "無料",
     "priceValue": 200,
@@ -1627,6 +1659,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1676,6 +1709,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1725,6 +1759,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1774,6 +1809,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "■摘み放題入場料:1000円小学生以上：500円未就学児　：無料6月: 250円/100g, 7月: 230円/100g, 8月: 210円/100g",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1823,6 +1859,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -1873,6 +1910,7 @@
       "食べ放題",
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "■食べ放題 (時間無制限)1500円３歳以上　：800円幼児　　　：無料■お持ち帰り料金・300円/100g・600円/200g・900円/300g・1500円/500g",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -1922,6 +1960,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "■摘み放題 (1時間) 3300円/1 kg入場料:小学生以上：1200円未就学児　：700円",
     "parkingBrief": "無料",
     "priceValue": 3300,
@@ -1971,6 +2010,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "5歳以上1000円5歳未満500円",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -2019,6 +2059,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -2068,6 +2109,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "要問い合わせ",
     "parkingBrief": "無料",
     "priceValue": 0,
@@ -2117,6 +2159,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "摘み取り 1,600円/kg販売 2,000円/kg",
     "parkingBrief": "無料",
     "priceValue": 600,
@@ -2167,6 +2210,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "1,200円小学生以上：600円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 200,
@@ -2215,6 +2259,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "500円小学生以下：200円",
     "parkingBrief": "無料",
     "priceValue": 500,
@@ -2264,6 +2309,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "高校生以上：平日｜1700円　　　　　　休日｜2200円小学生以上：平日｜800円　　　　　　休日｜1100円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1700,
@@ -2313,6 +2359,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "※詳細な料金は農園へお問い合わせください",
     "parkingBrief": "無料",
     "priceValue": 0,
@@ -2363,6 +2410,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "800円小学生以上：300円",
     "parkingBrief": "無料",
     "priceValue": 800,
@@ -2412,6 +2460,7 @@
     "features": [
       "駐車場あり"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -2462,6 +2511,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "1500円3歳以上：1000円",
     "parkingBrief": "無料",
     "priceValue": 1500,
@@ -2510,6 +2560,53 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
+    ],
+    "comments": [
+      {
+        "id": "c1",
+        "author": "ムッシュ",
+        "date": "2025/04/11",
+        "content": "昨日　行きました。\nここのおじさんは腕の良い庭師です。\nしかもバイクも乗ります。私もバイクで行った\nので園の中をたっぷり案内していただきました。\n樹木の疑問には何でも答えてくれます。\n楽しい時間でした。若い社長も優しいです。\nベリーの時期にはかみさんといきます。",
+        "replies": [
+          {
+            "id": "r1",
+            "author": "八街ブルーベリーファーム 春夫観光農園",
+            "date": "2025/08/14",
+            "content": "ムッシュ、ありがとうございます。ソーラーパネルの下ですので、日影が多いので、涼しくブルー狩りができます。入場料も１２００円、お土産、約３００gが付きます。９月いっぱいやっていますので、どうぞ御来園ください。",
+            "isOwner": true
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "author": "Mia (Area 52)",
+        "date": "2025/06/03",
+        "content": "Nice share!",
+        "replies": [
+          {
+            "id": "r2",
+            "author": "八街ブルーベリーファーム 春夫観光農園",
+            "date": "2025/08/14",
+            "content": "せんきゅー",
+            "isOwner": true
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "author": "あっこ",
+        "date": "2025/07/14",
+        "content": "昨日、孫（4歳）２人、娘２人と一緒に行きました。\nスタッフの方がとても親切で、いろいろ教えてくださり、それぞれの種類の味を比べながら味わい、たくさん摘んできました。美味しかったてす。\n手作りのブランコやハンモックに乗ったり、烏骨鶏をみたり、孫も楽しんでいました。\nまた行きます。ありがとうございました。",
+        "replies": [
+          {
+            "id": "r3",
+            "author": "八街ブルーベリーファーム 春夫観光農園",
+            "date": "2025/08/14",
+            "content": "ありがとうございました。子供用のプールもあります。今度は着替えを持ってきて、プールで楽しんでください。お待ちしております。",
+            "isOwner": true
+          }
+        ]
+      }
     ],
     "pricingBrief": "1200円小学生以上：600円未就学児：無料",
     "parkingBrief": "無料",
@@ -2560,6 +2657,7 @@
       "駐車場あり",
       "持ち帰り可"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円3歳以上：200円3歳未満：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
@@ -2609,6 +2707,7 @@
       "駐車場あり",
       "要予約"
     ],
+    "comments": [],
     "pricingBrief": "1000円小学生以上：500円未就学児：無料",
     "parkingBrief": "無料",
     "priceValue": 1000,
