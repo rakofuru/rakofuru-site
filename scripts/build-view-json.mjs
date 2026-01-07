@@ -49,7 +49,9 @@ function buildViewJson() {
       reviewWidgetId: null, // Extracted from [grw id="..."]
       googleMapsEmbed: null, // Extracted iframe src
       // Metadata tags (for filtering)
+      // Metadata tags (for filtering)
       features: [],
+      comments: [],
     };
 
     if (!farm.bodyHtml) {
@@ -253,6 +255,59 @@ function buildViewJson() {
 
     // 6. Fallback: If no info table found, maybe we should treat the whole body as "content"?
     // But for this task, the goal is structured data. 
+
+    // 6. Comments Injection
+    if (view.title.includes("八街ブルーベリーファーム") && view.title.includes("春夫")) {
+      view.comments = [
+        {
+          id: "c1",
+          author: "ムッシュ",
+          date: "2025/04/11",
+          content: "昨日　行きました。\nここのおじさんは腕の良い庭師です。\nしかもバイクも乗ります。私もバイクで行った\nので園の中をたっぷり案内していただきました。\n樹木の疑問には何でも答えてくれます。\n楽しい時間でした。若い社長も優しいです。\nベリーの時期にはかみさんといきます。",
+          replies: [
+            {
+              id: "r1",
+              author: "八街ブルーベリーファーム 春夫観光農園",
+              date: "2025/08/14",
+              content: "ムッシュ、ありがとうございます。ソーラーパネルの下ですので、日影が多いので、涼しくブルー狩りができます。入場料も１２００円、お土産、約３００gが付きます。９月いっぱいやっていますので、どうぞ御来園ください。",
+              isOwner: true
+            }
+          ]
+        },
+        {
+          id: "c2",
+          author: "Mia (Area 52)",
+          date: "2025/06/03",
+          content: "Nice share!",
+          replies: [
+            {
+              id: "r2",
+              author: "八街ブルーベリーファーム 春夫観光農園",
+              date: "2025/08/14",
+              content: "せんきゅー",
+              isOwner: true
+            }
+          ]
+        },
+        {
+          id: "c3",
+          author: "あっこ",
+          date: "2025/07/14",
+          content: "昨日、孫（4歳）２人、娘２人と一緒に行きました。\nスタッフの方がとても親切で、いろいろ教えてくださり、それぞれの種類の味を比べながら味わい、たくさん摘んできました。美味しかったてす。\n手作りのブランコやハンモックに乗ったり、烏骨鶏をみたり、孫も楽しんでいました。\nまた行きます。ありがとうございました。",
+          replies: [
+            {
+              id: "r3",
+              author: "八街ブルーベリーファーム 春夫観光農園",
+              date: "2025/08/14",
+              content: "ありがとうございました。子供用のプールもあります。今度は着替えを持ってきて、プールで楽しんでください。お待ちしております。",
+              isOwner: true
+            }
+          ]
+        }
+      ];
+    } else {
+      view.comments = [];
+    }
 
     return view;
   });
