@@ -29,6 +29,10 @@ export interface FarmView {
     pricingBrief: string;
     parkingBrief: string;
     hoursBrief: string;
+    // Phase 5
+    priceValue: number;
+    hasTakeout: boolean;
+    seasonBrief: string;
     sections: {
         title: string;
         contentHtml: string;

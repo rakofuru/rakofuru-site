@@ -9,6 +9,7 @@ import { getFarmViewBySlug, getAreaName, farmsView } from "@/lib/view-data"
 import { FarmInfoTable } from "@/components/farm-info-table"
 import { FarmSection } from "@/components/farm-section"
 import { ReviewWidget } from "@/components/review-widget"
+import { UnifiedInfoBlock } from "@/components/unified-info-block"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -74,36 +75,43 @@ export default async function FarmDetailPage({ params }: PageProps) {
         {/* Hero Image */}
         <div className="relative aspect-[16/9] max-h-[50vh] w-full overflow-hidden bg-muted md:aspect-[21/9]">
           <img src={heroImageUrl} alt={farm.title} className="h-full w-full object-cover" />
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/60 to-transparent" />
-          <div className="absolute bottom-4 left-4 container mx-auto px-4 text-white">
-            <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-primary/90 px-3 py-1 text-xs font-bold">
+          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/80 to-transparent" />
+          <div className="absolute bottom-6 left-4 container mx-auto px-4 text-white">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/90 px-3 py-1 text-xs font-bold shadow-lg border border-white/20">
               <MapPin className="h-3 w-3" />
               {areaName}
             </div>
-            <h1 className="text-2xl font-bold md:text-4xl text-shadow-md">{farm.title}</h1>
+            <h1 className="text-3xl font-bold md:text-5xl text-shadow-lg tracking-tight mb-2">{farm.title}</h1>
+            <p className="text-sm md:text-base opacity-90 font-medium text-shadow-sm max-w-2xl">
+              千葉県でブルーベリー狩りを楽しむならここ。家族で楽しめる自然豊かな農園です。
+            </p>
           </div>
         </div>
 
         <div className="container mx-auto px-4 py-8 md:py-12">
           <div className="grid gap-8 lg:grid-cols-3">
             {/* Main Content */}
-            <div className="lg:col-span-2 space-y-8">
+            <div className="lg:col-span-2 space-y-10">
 
-              {/* Important Info Table */}
-              {farm.infoTable && Object.keys(farm.infoTable).length > 0 && (
-                <FarmInfoTable infoTable={farm.infoTable} />
-              )}
+              {/* 1. Unified Info Block (The Decision Core) */}
+              <UnifiedInfoBlock farm={farm} />
 
-              {/* Sections (Access, Parking, etc) */}
-              <div className="space-y-8">
+              {/* 2. Sections (Access, Parking, etc) */}
+              <div className="space-y-12">
                 {farm.sections.map((section, idx) => (
                   <FarmSection key={idx} title={section.title} contentHtml={section.contentHtml} />
                 ))}
               </div>
 
-              {/* Review Widget */}
+              {/* 3. Review Widget */}
               {farm.reviewWidgetId && (
-                <ReviewWidget id={farm.reviewWidgetId} />
+                <div className="pt-8 border-t border-dashed border-slate-300">
+                  <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                    <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+                    この農園の口コミ
+                  </h2>
+                  <ReviewWidget id={farm.reviewWidgetId} />
+                </div>
               )}
 
             </div>

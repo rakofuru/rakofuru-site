@@ -64,6 +64,11 @@ function buildViewJson() {
     let parkingBrief = "";
     let hoursBrief = "";
 
+    // New fields for Phase 5 filter
+    let priceValue = 0; // For sorting
+    let hasTakeout = false;
+    let seasonBrief = "";
+
     if ($table.length) {
       $table.find('tr').each((_, tr) => {
         const $tds = $(tr).find('td');
@@ -75,22 +80,40 @@ function buildViewJson() {
           if (key && valueText) {
             infoTable[key] = valueHtml;
 
-            // Feature Tag Extraction
+            // Feature Tag Extraction & Phase 5 Data
             if (key.includes('駐車場') && (valueText.includes('あり') || valueText.includes('台'))) {
               features.push('駐車場あり');
-              parkingBrief = valueText.split(/<br\s*\/?>/i)[0].replace('あり｜', ''); // Simple brief
+              parkingBrief = valueText.split(/<br\s*\/?>/i)[0].replace('あり｜', '');
             }
             if (key.includes('料金')) {
               if (valueText.includes('食べ放題')) features.push('食べ放題');
+
               // Extract first line or simplified price for brief
               const firstLine = valueText.split(/\n|<br\s*\/?>/i)[0];
               pricingBrief = firstLine.replace('中学生以上：', '').replace('大人', '');
+
+              // Normalize price for sorting (find first number)
+              const priceMatch = valueText.match(/(\d{3,5})/);
+              if (priceMatch) {
+                priceValue = parseInt(priceMatch[1], 10);
+              }
             }
-            if (key.includes('備考') && (valueText.includes('予約'))) {
-              features.push('要予約');
+            if (key.includes('備考')) {
+              if (valueText.includes('予約')) features.push('要予約');
+              if (valueText.includes('持ち帰り') || valueText.includes('量り売り')) {
+                features.push('持ち帰り可');
+                hasTakeout = true;
+              }
             }
             if (key.includes('営業時間')) {
-              hoursBrief = valueText.split(/<br\s*\/?>/i)[0]; // First line only
+              hoursBrief = valueText.split(/<br\s*\/?>/i)[0];
+
+              // Try to extract season
+              // Format often: "6月~9中旬" or similar
+              const seasonMatch = valueText.match(/(\d{1,2})月/);
+              if (seasonMatch) {
+                seasonBrief = valueText.split(/\n|<br\s*\/?>/i).find(l => l.includes('月')) || "";
+              }
             }
           }
         }
@@ -104,6 +127,11 @@ function buildViewJson() {
     view.pricingBrief = pricingBrief;
     view.parkingBrief = parkingBrief;
     view.hoursBrief = hoursBrief;
+
+    // Phase 5 fields
+    view.priceValue = priceValue;
+    view.hasTakeout = hasTakeout;
+    view.seasonBrief = seasonBrief;
 
     // 3. Extract Sections (H2 based)
     // We iterate through all top-level elements to group them into sections.
