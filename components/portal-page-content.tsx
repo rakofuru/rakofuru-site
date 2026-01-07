@@ -9,12 +9,13 @@ import { MapPin } from "lucide-react"
 export function PortalPageContent() {
     const [filters, setFilters] = useState<FilterState>({
         keyword: "",
-        priceRange: "all",
+        priceMax: 3000,
         season: "all",
         features: {
             parking: false,
             takeout: false,
-            reservation: false
+            reservation: false,
+            tabehoudai: false
         }
     })
 
@@ -28,36 +29,22 @@ export function PortalPageContent() {
                 if (!titleMatch && !featureMatch) return false
             }
 
-            // 2. Price Range
-            if (filters.priceRange !== "all") {
-                if (filters.priceRange === "under1500") {
-                    if (!farm.priceValue || farm.priceValue > 1500) return false;
-                }
-                if (filters.priceRange === "over1500") {
-                    // not implemented logic, but assuming just NOT under 1500 or logic similar
-                    // Actually, strict logic:
-                    // Let's say over1500 means >= 1500.
-                    // But the UI was under/1000-2000...
-                    // Let's stick to the simple filter in SearchFilter: "under1500", "tabehoudai"
-                }
-                if (filters.priceRange === "tabehoudai") {
-                    if (!farm.features.includes("食べ放題")) return false;
-                }
+            // 2. Price Max (Slider)
+            // Use priceValue if available.
+            // If priceValue is 0, we treat it as unknown.
+            // Logic: Show if priceValue <= filters.priceMax OR priceValue is unknown (0)?
+            // Better UX: If filtered low, maybe hide expensive ones.
+            if (filters.priceMax < 3000) {
+                if (farm.priceValue > filters.priceMax) return false;
             }
+
+            // Tabehoudai (Feature Check)
+            if (filters.features.tabehoudai && !farm.features.includes("食べ放題")) return false;
+
 
             // 3. Season
             if (filters.season !== "all") {
-                // Heuristic: check if seasonBrief includes the month
-                // "current" logic needs a real date, but for now let's assume "seasonBrief" has current month
-                // or just skip 'current' for static demo if not feasible.
-                // Let's match string.
-                if (filters.season === "june" && !farm.seasonBrief.includes("6月")) return false;
-                if (filters.season === "july" && !farm.seasonBrief.includes("7月")) return false;
-                if (filters.season === "august" && !farm.seasonBrief.includes("8月")) return false;
-                if (filters.season === "current") {
-                    // Mock: assume June for demo
-                    if (!farm.seasonBrief.includes("6月") && !farm.seasonBrief.includes("7月")) return false;
-                }
+                if (!farm.seasonBrief.includes(filters.season)) return false;
             }
 
             // 4. Features
@@ -79,7 +66,7 @@ export function PortalPageContent() {
 
                 <div className="container relative z-10 mx-auto px-4 text-center">
                     <div className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-md border border-white/20 mb-6">
-                        🍓 千葉県のブルーベリー狩り専門ポータル
+                        🫐 千葉県のブルーベリー狩り専門ポータル
                     </div>
                     <h1 className="mb-8 text-3xl font-bold tracking-tight text-white md:text-5xl lg:text-5xl text-shadow-sm leading-tight">
                         週末は、農園に行こう。<br />
@@ -112,7 +99,7 @@ export function PortalPageContent() {
                     </div>
                 </div>
 
-                <div className="space-y-4">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                     {filteredFarms.map(farm => (
                         <FarmCard
                             key={farm.id}
@@ -135,8 +122,8 @@ export function PortalPageContent() {
                         <p className="text-sm mt-2">条件を変えて再度検索してみてください。</p>
                         <button
                             onClick={() => setFilters({
-                                keyword: "", priceRange: "all", season: "all",
-                                features: { parking: false, takeout: false, reservation: false }
+                                keyword: "", priceMax: 3000, season: "all",
+                                features: { parking: false, takeout: false, reservation: false, tabehoudai: false }
                             })}
                             className="mt-6 rounded-full bg-primary px-6 py-2 text-white hover:bg-primary/90 transition-colors"
                         >
