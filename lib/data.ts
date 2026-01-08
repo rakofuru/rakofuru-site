@@ -22,6 +22,9 @@ export type Farm = {
   bodyHtml: string
   heroImage: FarmImage | null
   images: FarmImage[]
+  publishedAt: string
+  updatedAt: string | null
+  status: string
   location: {
     googleMapsPlaceUrl: string
     googleMapsReviewsUrl: string | null
@@ -34,6 +37,7 @@ export type Farm = {
     sourceUrl: string | null
   }
   legacy: {
+    wpPostId: number
     wpPermalink: string | null
   }
 }

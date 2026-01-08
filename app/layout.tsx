@@ -11,10 +11,9 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: "らこふる - 千葉県のブルーベリー農園さがし",
+  title: "らこふる - 千葉のブルーベリー農園さがし",
   description:
-    "千葉県のブルーベリー観光農園を探すなら「らこふる」。家族で楽しめるブルーベリー狩りスポットをエリア別にご紹介。",
-  generator: "v0.app",
+    "千葉のブルーベリー観光農園を探すなら「らこふる」。営業時期や料金、設備を比較しながら自分に合う農園を見つけられます。",
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",

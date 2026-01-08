@@ -1,319 +1,231 @@
+import fs from "fs"
+import path from "path"
+import * as cheerio from "cheerio"
+import { fileURLToPath } from "url"
 
-import fs from 'fs';
-import path from 'path';
-import * as cheerio from 'cheerio';
-import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const FARMS_JSON_PATH = path.join(__dirname, "../data/farms.json")
+const VIEW_JSON_PATH = path.join(__dirname, "../data/farms.view.json")
 
-const FARMS_JSON_PATH = path.join(__dirname, '../data/farms.json');
-const VIEW_JSON_PATH = path.join(__dirname, '../data/farms.view.json');
+const BLUEBERRY_PLACEHOLDERS = Array.from({ length: 36 }, (_, index) => {
+  const id = String(index + 1).padStart(2, "0")
+  return `/images/blueberry/blueberry-${id}.svg`
+})
+
+const ACCESS_KEY = "アクセス"
+const PARKING_KEY = "駐車場"
+const HOURS_KEY = "営業時間"
+const PRICE_KEY = "料金"
+const NOTES_KEY = "備考"
+
+const getStableImageForSlug = (slug) => {
+  if (!slug) return "/images/default-farm.png"
+  const hash = slug.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0)
+  return BLUEBERRY_PLACEHOLDERS[hash % BLUEBERRY_PLACEHOLDERS.length]
+}
 
 function buildViewJson() {
-  console.log('Building farms.view.json...');
+  console.log("Building farms.view.json...")
 
   if (!fs.existsSync(FARMS_JSON_PATH)) {
-    console.error('Error: data/farms.json not found.');
-    process.exit(1);
+    console.error("Error: data/farms.json not found.")
+    process.exit(1)
   }
 
-  const rawData = fs.readFileSync(FARMS_JSON_PATH, 'utf8');
-  let farms = [];
+  const rawData = fs.readFileSync(FARMS_JSON_PATH, "utf8")
+  let farms = []
   try {
-    farms = JSON.parse(rawData);
+    farms = JSON.parse(rawData)
   } catch (e) {
-    console.error('Error parsing farms.json:', e);
-    process.exit(1);
+    console.error("Error parsing farms.json:", e)
+    process.exit(1)
   }
 
-  const farmViews = farms.map(farm => {
-    // 1. Basic Info Copy
+  const farmViews = farms.map((farm) => {
     const view = {
       id: farm.id,
       slug: farm.slug,
-      categorySlug: farm.categorySlug, // Will be mapped to area-master in UI
+      categorySlug: farm.categorySlug,
       title: farm.title,
       heroImage: {
-        srcUrl: "/images/default-farm.png",
+        id: farm.id,
+        srcUrl: getStableImageForSlug(farm.slug),
+        alt: null,
+        title: null,
         width: 800,
         height: 600,
-        original: farm.heroImage // Keep legacy ref if needed
       },
       location: farm.location,
       publishedAt: farm.publishedAt,
       updatedAt: farm.updatedAt,
-      // Structured Data Containers
-      infoTable: {}, // Extracted from the first table
-      sections: [], // Extracted from H2 sections
-      reviewWidgetId: null, // Extracted from [grw id="..."]
-      googleMapsEmbed: null, // Extracted iframe src
-      // Metadata tags (for filtering)
-      // Metadata tags (for filtering)
+      infoTable: {},
+      pricingBrief: "",
+      parkingBrief: "",
+      hoursBrief: "",
+      priceValue: 0,
+      hasTakeout: false,
+      seasonBrief: "",
+      seasonMonths: [],
+      sections: [],
+      reviewWidgetId: null,
+      googleMapsEmbed: null,
       features: [],
-      comments: [],
-    };
+    }
 
     if (!farm.bodyHtml) {
-      return view;
+      return view
     }
 
-    const $ = cheerio.load(farm.bodyHtml);
+    const $ = cheerio.load(farm.bodyHtml)
 
-    // 2. Extract Info Table
-    // Assumption: The first table in the content is the "Basic Info" table.
-    const $table = $('table').first();
-    const infoTable = {};
-    const features = [];
+    const $table = $("table").first()
+    const infoTable = {}
+    const features = []
 
-    // Brief fields for Card UI
-    let pricingBrief = "";
-    let parkingBrief = "";
-    let hoursBrief = "";
-
-    // New fields for Phase 5 filter
-    let priceValue = 0; // For sorting
-    let hasTakeout = false;
-    let seasonBrief = "";
+    let pricingBrief = ""
+    let parkingBrief = ""
+    let hoursBrief = ""
+    let priceValue = 0
+    let hasTakeout = false
+    let seasonBrief = ""
 
     if ($table.length) {
-      $table.find('tr').each((_, tr) => {
-        const $tds = $(tr).find('td');
-        if ($tds.length >= 2) {
-          const key = $tds.eq(0).text().trim();
-          const valueHtml = $tds.eq(1).html()?.trim() || '';
-          const valueText = $tds.eq(1).text().trim();
+      $table.find("tr").each((_, tr) => {
+        const $tds = $(tr).find("td")
+        if ($tds.length < 2) return
 
-          if (key && valueText) {
-            // Clean up values before saving
-            // Remove "Details Here" links found in Parking and Access
-            if (key.includes('駐車場') || key.includes('アクセス')) {
-              const clean = valueHtml
-                .replace(/<br\s*\/?>\s*<a[^>]*>■詳細はコチラ<\/a>/gi, '')
-                .replace(/<a[^>]*>■詳細はコチラ<\/a>/gi, '');
-              infoTable[key] = clean;
-            } else {
-              infoTable[key] = valueHtml;
-            }
+        const key = $tds.eq(0).text().trim()
+        const valueHtml = $tds.eq(1).html()?.trim() || ""
+        const valueText = $tds.eq(1).text().trim()
 
-            // Feature Tag Extraction & Phase 5 Data
-            if (key.includes('駐車場') && (valueText.includes('あり') || valueText.includes('台'))) {
-              features.push('駐車場あり');
-              parkingBrief = valueText.split(/<br\s*\/?>/i)[0]
-                .replace('あり｜', '')
-                .replace('■詳細はコチラ', '')
-                .trim();
-            }
-            if (key.includes('料金')) {
-              if (valueText.includes('食べ放題')) features.push('食べ放題');
+        if (!key) return
+        infoTable[key] = valueHtml
 
-              // Extract first line or simplified price for brief
-              const firstLine = valueText.split(/\n|<br\s*\/?>/i)[0];
-              pricingBrief = firstLine.replace('中学生以上：', '').replace('大人', '');
+        if (key.includes(PARKING_KEY) && valueText) {
+          if (valueText.includes("あり") || valueText.includes("台")) {
+            features.push("駐車場あり")
+          }
+          const firstLine = valueText.split(/\n|<br\s*\/?>/i)[0]
+          parkingBrief = firstLine.replace("あり｜無料", "無料").trim()
+        }
 
-              // Normalize price for sorting (find first number)
-              const priceMatch = valueText.match(/(\d{3,5})/);
-              if (priceMatch) {
-                priceValue = parseInt(priceMatch[1], 10);
-              }
-            }
-            if (key.includes('備考')) {
-              if (valueText.includes('予約')) features.push('要予約');
-              if (valueText.includes('持ち帰り') || valueText.includes('量り売り')) {
-                features.push('持ち帰り可');
-                hasTakeout = true;
-              }
-            }
-            if (key.includes('営業時間')) {
-              hoursBrief = valueText.split(/<br\s*\/?>/i)[0];
-
-              // Try to extract season
-              // Format often: "6月~9中旬" or similar
-              const seasonMatch = valueText.match(/(\d{1,2})月/);
-              if (seasonMatch) {
-                const rawLine = valueText.split(/\n|<br\s*\/?>/i).find(l => l.includes('月')) || "";
-                // Remove "Early/Late" (上旬/中旬/下旬) and "Planned" (予定) for cleaner UI
-                seasonBrief = rawLine
-                  .replace(/上旬|中旬|下旬/g, '')
-                  .replace(/予定/g, '')
-                  .replace(/[()（）]/g, '')
-                  .trim();
-              }
-            }
+        if (key.includes(PRICE_KEY) && valueText) {
+          if (valueText.includes("食べ放題")) {
+            features.push("食べ放題")
+          }
+          const firstLine = valueText.split(/\n|<br\s*\/?>/i)[0]
+          pricingBrief = firstLine
+            .replace("中学生以上：", "")
+            .replace("大人：", "")
+            .replace("大人", "")
+            .trim()
+          const priceMatch = valueText.match(/(\d{3,5})/)
+          if (priceMatch) {
+            priceValue = Number.parseInt(priceMatch[1], 10)
           }
         }
-      });
-      // Remove the table from DOM so it doesn't appear in sections
-      $table.remove();
+
+        if (key.includes(NOTES_KEY) && valueText) {
+          if (valueText.includes("予約") || valueText.includes("要予約")) {
+            features.push("要予約")
+          }
+          if (valueText.includes("持ち帰り") || valueText.includes("量り売り")) {
+            features.push("持ち帰り可")
+            hasTakeout = true
+          }
+          if (valueText.includes("雨天") || valueText.includes("屋根") || valueText.includes("ハウス")) {
+            features.push("雨天OK")
+          }
+        }
+
+        if (key.includes(HOURS_KEY) && valueText) {
+          hoursBrief = valueText.split(/\n|<br\s*\/?>/i)[0]
+          const seasonLine = valueText
+            .split(/\n|<br\s*\/?>/i)
+            .find((line) => line.includes("月"))?.trim()
+          if (seasonLine) {
+            seasonBrief = seasonLine
+              .replace(/上旬|中旬|下旬/g, "")
+              .replace(/予定|※/g, "")
+              .replace(/[()（）]/g, "")
+              .trim()
+          }
+        }
+      })
+      $table.remove()
     }
 
-    // Randomize Thumbnail if default
-    // We have farm-0.png, farm-1.png, farm-2.png
-    // Simple hash based on ID to be deterministic
-    const farmIdNum = parseInt(farm.id) || 0;
-    const thumbIndex = farmIdNum % 3;
-    let thumbSrc = `/images/farm-${thumbIndex}.png`;
-
-    // Force Override Logic
-    // User requested "Replace WP Image URLs with local placeholder logic if original WP image is missing/broken (or force override as per request)."
-    // And "Thumbnails: Randomize assignment (No people)".
-    // So we force use local randomized images.
-
-    view.heroImage = {
-      srcUrl: thumbSrc,
-      width: 800,
-      height: 600
-    };
-
-    view.features = features;
-    view.pricingBrief = pricingBrief;
-    view.parkingBrief = parkingBrief;
-
-    // Phase 5 fields
-    view.priceValue = priceValue;
-    view.hasTakeout = hasTakeout;
-    view.seasonBrief = seasonBrief;
-
-    // Season Range Logic
-    // Parse "6月〜8月" or "6月下旬〜8月" to [6, 7, 8]
-    const seasonMonths = [];
+    const seasonMonths = []
     if (seasonBrief) {
-      const rangeMatch = seasonBrief.match(/(\d{1,2})月.*?〜.*?(\d{1,2})月/);
+      const rangeMatch = seasonBrief.match(/(\d{1,2})月.*?(\d{1,2})月/)
       if (rangeMatch) {
-        const start = parseInt(rangeMatch[1], 10);
-        const end = parseInt(rangeMatch[2], 10);
-        if (!isNaN(start) && !isNaN(end)) {
-          for (let m = start; m <= end; m++) {
-            seasonMonths.push(m);
+        const start = Number.parseInt(rangeMatch[1], 10)
+        const end = Number.parseInt(rangeMatch[2], 10)
+        if (!Number.isNaN(start) && !Number.isNaN(end)) {
+          for (let month = start; month <= end; month += 1) {
+            seasonMonths.push(month)
           }
         }
       } else {
-        // Single month check or simple list
-        if (seasonBrief.includes('6月')) seasonMonths.push(6);
-        if (seasonBrief.includes('7月')) seasonMonths.push(7);
-        if (seasonBrief.includes('8月')) seasonMonths.push(8);
+        if (seasonBrief.includes("6月")) seasonMonths.push(6)
+        if (seasonBrief.includes("7月")) seasonMonths.push(7)
+        if (seasonBrief.includes("8月")) seasonMonths.push(8)
+        if (seasonBrief.includes("9月")) seasonMonths.push(9)
       }
     }
-    view.seasonMonths = seasonMonths;
 
-    // 3. Extract Sections (H2 based)
-    // We iterate through all top-level elements to group them into sections.
-    // However, the WP HTML structure might be flat. 
-    // Strategy: Find H2s. Everything after an H2 until the next H2 is that section's content.
+    $("h2").each((_, h2) => {
+      const $h2 = $(h2)
+      const title = $h2.text().trim()
+      let contentHtml = ""
+      let $next = $h2.next()
 
-    // First, let's treat the Table as "handled" content.
-    // We want to extract "Access", "Parking" (if separate), "Reviews".
-
-    $('h2').each((_, h2) => {
-      const $h2 = $(h2);
-      const title = $h2.text().trim();
-      let contentHtml = '';
-
-      let $next = $h2.next();
-      while ($next.length && $next.prop('tagName') !== 'H2') {
-        // Special handling: Review Widget Shortcode
-        // WP shortcodes might appear as text or inside a div depending on how raw content is saved.
-        // In the provided JSON, it looks like: [grw id="372"] inside a wp-block-cover or similar?
-        // Actually, let's check the HTML string for the entire section.
-        contentHtml += $.html($next);
-        $next = $next.next();
+      while ($next.length && $next.prop("tagName") !== "H2") {
+        contentHtml += $.html($next)
+        $next = $next.next()
       }
 
-      // 4. Extract Review Widget ID
-      const grwMatch = contentHtml.match(/\[grw\s+id=["'](\d+)["']\]/);
-      if (grwMatch) {
-        view.reviewWidgetId = grwMatch[1];
-        // We might want to NOT include this in 'sections' list if we want a dedicated UI component for it.
-        // But for safe fallback, we can keep it, or strip it. 
-        // Let's strip the shortcode from the HTML content if we plan to render it manually.
-        // For now, let's keep it in sections but flag it.
+      const reviewMatch = contentHtml.match(/\[grw\s+id=["'](\d+)["']\]/)
+      if (reviewMatch) {
+        view.reviewWidgetId = reviewMatch[1]
       }
 
-      // 5. Extract Google Maps Embed
-      if (title.includes('アクセス')) {
-        const iframeSrc = $h2.parent().parent().find('iframe').attr('src') || $next.find('iframe').attr('src'); // Try finding nearby
-        if (iframeSrc && iframeSrc.includes('google.com/maps/embed')) {
-          view.googleMapsEmbed = iframeSrc;
+      if (title.includes(ACCESS_KEY)) {
+        const iframeSrc =
+          $h2.parent().parent().find("iframe").attr("src") ||
+          $next.find("iframe").attr("src")
+        if (iframeSrc && iframeSrc.includes("google.com/maps/embed")) {
+          view.googleMapsEmbed = iframeSrc
         }
-
-        // Data Cleanup: Remove "Parking: X cars" text from Access section
-        // User reports "There is a Parking notation under the iframe in Access widget".
-        // Regex to target likely patterns: "駐車場.*台", "Parking.*cars", lines containing "駐車場" that act as noise.
-        // Also remove "Details Here" again just in case.
         contentHtml = contentHtml
-          .replace(/駐車場.*?台/g, '') // Remove "駐車場 50台" etc.
-          .replace(/駐車場有/g, '')
-          .replace(/<br\s*\/?>\s*<a[^>]*>■詳細はコチラ<\/a>/gi, '')
-          .replace(/<a[^>]*>■詳細はコチラ<\/a>/gi, '');
+          .replace(/駐車場.*?台/g, "")
+          .replace(/駐車場.*?あり/g, "")
+          .replace(/<br\s*\/?>\s*$/g, "")
       }
 
       view.sections.push({
-        title: title,
-        contentHtml: contentHtml.trim()
-      });
-    });
+        title,
+        contentHtml: contentHtml.trim(),
+      })
+    })
 
-    // 6. Fallback: If no info table found, maybe we should treat the whole body as "content"?
-    // But for this task, the goal is structured data. 
+    view.infoTable = infoTable
+    view.features = features
+    view.pricingBrief = pricingBrief
+    view.parkingBrief = parkingBrief
+    view.hoursBrief = hoursBrief
+    view.priceValue = priceValue
+    view.hasTakeout = hasTakeout
+    view.seasonBrief = seasonBrief
+    view.seasonMonths = seasonMonths
 
-    // 6. Comments Injection
-    if (view.title.includes("八街ブルーベリーファーム") && view.title.includes("春夫")) {
-      view.comments = [
-        {
-          id: "c1",
-          author: "ムッシュ",
-          date: "2025/04/11",
-          content: "昨日　行きました。\nここのおじさんは腕の良い庭師です。\nしかもバイクも乗ります。私もバイクで行った\nので園の中をたっぷり案内していただきました。\n樹木の疑問には何でも答えてくれます。\n楽しい時間でした。若い社長も優しいです。\nベリーの時期にはかみさんといきます。",
-          replies: [
-            {
-              id: "r1",
-              author: "八街ブルーベリーファーム 春夫観光農園",
-              date: "2025/08/14",
-              content: "ムッシュ、ありがとうございます。ソーラーパネルの下ですので、日影が多いので、涼しくブルー狩りができます。入場料も１２００円、お土産、約３００gが付きます。９月いっぱいやっていますので、どうぞ御来園ください。",
-              isOwner: true
-            }
-          ]
-        },
-        {
-          id: "c2",
-          author: "Mia (Area 52)",
-          date: "2025/06/03",
-          content: "Nice share!",
-          replies: [
-            {
-              id: "r2",
-              author: "八街ブルーベリーファーム 春夫観光農園",
-              date: "2025/08/14",
-              content: "せんきゅー",
-              isOwner: true
-            }
-          ]
-        },
-        {
-          id: "c3",
-          author: "あっこ",
-          date: "2025/07/14",
-          content: "昨日、孫（4歳）２人、娘２人と一緒に行きました。\nスタッフの方がとても親切で、いろいろ教えてくださり、それぞれの種類の味を比べながら味わい、たくさん摘んできました。美味しかったてす。\n手作りのブランコやハンモックに乗ったり、烏骨鶏をみたり、孫も楽しんでいました。\nまた行きます。ありがとうございました。",
-          replies: [
-            {
-              id: "r3",
-              author: "八街ブルーベリーファーム 春夫観光農園",
-              date: "2025/08/14",
-              content: "ありがとうございました。子供用のプールもあります。今度は着替えを持ってきて、プールで楽しんでください。お待ちしております。",
-              isOwner: true
-            }
-          ]
-        }
-      ];
-    } else {
-      view.comments = [];
-    }
+    return view
+  })
 
-    return view;
-  });
-
-  fs.writeFileSync(VIEW_JSON_PATH, JSON.stringify(farmViews, null, 2));
-  console.log(`Successfully generated farms.view.json with ${farmViews.length} farms.`);
+  fs.writeFileSync(VIEW_JSON_PATH, JSON.stringify(farmViews, null, 2))
+  console.log(`Successfully generated farms.view.json with ${farmViews.length} farms.`)
 }
 
-buildViewJson();
+buildViewJson()

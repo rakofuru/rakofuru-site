@@ -5,7 +5,10 @@
     "categorySlug": "chiba",
     "title": "数藤農園～ブルーベリーの森～",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-591",
+      "srcUrl": "/images/blueberry/blueberry-11.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -18,7 +21,31 @@
     },
     "publishedAt": "2023-11-19T12:09:38+09:00",
     "updatedAt": "2023-12-28T02:39:02+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "数藤農園～ブルーベリーの森～",
+      "住所": "〒278-0055 千葉県野田市岩名876-4",
+      "料金": "中学生以上：1500円<br>小学生以上：1000円<br>未就学児：500円",
+      "電話番号": "<a href=\"tel:080-1807-0417\">080-1807-0417</a>",
+      "営業時間": "9:00～16:00<br>※6月~9中旬月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "",
+      "アクセス": "東武アーバンパークライン「七光台駅」より約 1.5 km<br>常磐道「流山IC」より約 11 km<br><a href=\"https://rakofuru.com/farm/sudo-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/sudo-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.sudouberry.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.sudouberry.com/</a>",
+      "支払い方法": "現金",
+      "備考": "お持ち帰り：100g / 200円"
+    },
+    "pricingBrief": "1500円小学生以上：1000円未就学児：500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月~9中旬月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": true,
+    "seasonBrief": "9:00～16:006月~9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -38,15 +65,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "1500円小学生以上：1000円未就学児：500円",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": true,
-    "seasonBrief": "9:00～16:00※6月~9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6
     ]
   },
   {
@@ -55,7 +73,10 @@
     "categorySlug": "chiba",
     "title": "さわやかブルーベリーファーム市原",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-601",
+      "srcUrl": "/images/blueberry/blueberry-31.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -68,7 +89,30 @@
     },
     "publishedAt": "2023-11-19T12:39:30+09:00",
     "updatedAt": "2023-11-19T13:23:49+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "さわやかブルーベリーファーム市原",
+      "住所": "〒290-0558　千葉県市原市山口242-1",
+      "料金": "中学生以上：1800円<br>小学生以上：1000円<br>未就学児：500円<br>4歳未満：無料",
+      "電話番号": "<a href=\"tel:090-2726-9413\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-2726-9413</a>",
+      "営業時間": "9:00～16:30<br>※6月~8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日、金曜日",
+      "アクセス": "JR久留里線「馬来田駅」より約 12 km<br>常磐道「市原鶴舞IC」より約 4 km<br><a href=\"https://rakofuru.com/farm/sawayaka-blueberry-farm/#access\" data-type=\"farm\" data-id=\"626\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/sawayaka-blueberry-farm/#parking\" data-type=\"farm\" data-id=\"601\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://sawayaka-buruberi.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://sawayaka-buruberi.com/</a>",
+      "支払い方法": "現金、クレジットカード、電子マネー、QRコード決済",
+      "備考": "要予約、バス不可"
+    },
+    "pricingBrief": "1800円小学生以上：1000円未就学児：500円4歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:30※6月~8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1800,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:306月~8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -88,16 +132,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "1800円小学生以上：1000円未就学児：500円4歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1800,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:30※6月~8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -106,7 +140,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーファームしばやま",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-626",
+      "srcUrl": "/images/blueberry/blueberry-16.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -119,7 +156,30 @@
     },
     "publishedAt": "2023-11-19T13:18:38+09:00",
     "updatedAt": "2023-11-19T13:25:49+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーファームしばやま",
+      "住所": "〒272-0801 千葉県市川市大町340-4",
+      "料金": "小学生以上：1500円<br>未就学児：1000円<br>3歳以下：無料",
+      "電話番号": "<a href=\"tel:090-2251-3533\">090-2251-3533</a>",
+      "営業時間": "9:00～17:00<br>※6月~8月上旬(予定)<br>※摘み取り時期は農園へお問い合わせください",
+      "定休日": "",
+      "アクセス": "JR武蔵野線「東松戸駅」より約 3.5 km<br>東京外観道「市川北IC」より約 6 km<br><a href=\"https://rakofuru.com/farm/blueberry-farm-shibayama/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-farm-shibayama/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "要予約、30分摘み放題"
+    },
+    "pricingBrief": "小学生以上：1500円未就学児：1000円3歳以下：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※6月~8月上旬(予定)※摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:006月~8月摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -139,16 +199,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "小学生以上：1500円未就学児：1000円3歳以下：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00※6月~8月※摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -157,7 +207,10 @@
     "categorySlug": "chiba",
     "title": "あびこブルーベリーガーデン",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-635",
+      "srcUrl": "/images/blueberry/blueberry-10.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -170,7 +223,29 @@
     },
     "publishedAt": "2023-11-19T13:34:56+09:00",
     "updatedAt": "2023-11-19T13:40:44+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "あびこブルーベリーガーデン",
+      "住所": "〒270-1168 千葉県我孫子市根戸新田 付近",
+      "料金": "大人　1000円〜（入園料＋お持ち帰り1ケース）<br>　お持ち帰りケース<br>　A:1000円/100g　B:1400円/250g　C:1800円/500g<br>小学生　300円（入園料）<br>2歳以上　100円<br>2歳以下　無料<br>　追加1ケース　300円〜　容量に応じて変動いたします。",
+      "電話番号": "<a href=\"tel:080-2551-3597\">080-2551-3597</a>",
+      "営業時間": "午前　7:00～12:00（受付10:30まで）<br>午後　15:00～18:00（受付17:00まで）<br>※7月中旬~8月末(予定)<br>※摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日、火曜日、木曜日、金曜日",
+      "アクセス": "JR常磐線「北柏駅」より約 1.5 km<br>常磐道「柏IC」より約 8 km<br><a href=\"https://rakofuru.com/farm/abiko-blueberry-garden/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/abiko-blueberry-garden/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://blueberry-garden.jp/\" data-type=\"link\" data-id=\"https://blueberry-garden.jp/\">https://blueberry-garden.jp/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、摘み取り制"
+    },
+    "pricingBrief": "1000円〜（入園料＋お持ち帰り1ケース）　お持ち帰りケース　A:1000円/100g　B:1400円/250g　C:1800円/500g小学生　300円（入園料）2歳以上　100円2歳以下　無料　追加1ケース　300円〜　容量に応じて変動いたします。",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "午前　7:00～12:00（受付10:30まで）午後　15:00～18:00（受付17:00まで）※7月中旬~8月末(予定)※摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "午前　7:00～12:00受付10:30まで午後　15:00～18:00受付17:00まで7月~8月末摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -190,16 +265,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "　1000円〜（入園料＋お持ち帰り1ケース）　お持ち帰りケース　A:1000円/100g　B:1400円/250g　C:1800円/500g小学生　300円（入園料）2歳以上　100円2歳以下　無料　追加1ケース　300円〜　容量に応じて変動いたします。",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "午前　7:00～12:00受付10:30まで午後　15:00～18:00受付17:00まで※7月~8月末※摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -208,7 +273,10 @@
     "categorySlug": "chiba",
     "title": "エンジョイファーム嶋田",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-645",
+      "srcUrl": "/images/blueberry/blueberry-25.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -221,7 +289,30 @@
     },
     "publishedAt": "2023-11-19T14:14:20+09:00",
     "updatedAt": "2023-11-19T14:14:20+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "エンジョイファーム嶋田",
+      "住所": "〒299-4123 千葉県茂原市下太田2472-1<br>※Google Map上では茂原ブルーベリー園と表記されます",
+      "料金": "中学生以上：2000円<br>4歳以上：1000円<br>4歳未満：無料",
+      "電話番号": "<a href=\"tel:090-8772-0741\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-8772-0741</a>",
+      "営業時間": "9:00～16:30　受付終了 / 15:00<br>※6月10日〜8月末(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "水曜日、木曜日、金曜日",
+      "アクセス": "JR外房線「本納駅」より約 3.2 km<br>圏央道「茂原北IC」より約 2.7 km<br><a href=\"https://rakofuru.com/farm/enjoy-farm-shimada/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/enjoy-farm-shimada/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://2023efs.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://2023efs.com/</a>",
+      "支払い方法": "現金、QRコード決済",
+      "備考": "要予約、120分食べ放題(農園内出入り自由)"
+    },
+    "pricingBrief": "2000円4歳以上：1000円4歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:30　受付終了 / 15:00※6月10日〜8月末(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 2000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:30　受付終了 / 15:006月10日〜8月末詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -241,17 +332,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "2000円4歳以上：1000円4歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 2000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:30　受付終了 / 15:00※6月10日〜8月末※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      7,
-      8
     ]
   },
   {
@@ -260,7 +340,10 @@
     "categorySlug": "chiba",
     "title": "果実農園 カインの里",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-647",
+      "srcUrl": "/images/blueberry/blueberry-10.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -273,7 +356,30 @@
     },
     "publishedAt": "2023-11-19T14:18:07+09:00",
     "updatedAt": "2023-11-25T11:20:16+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "果実農園 カインの里",
+      "住所": "〒292-0005 千葉県木更津市畔戸1205",
+      "料金": "高校生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:090-3204-4480\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-3204-4480</a>",
+      "営業時間": "8:00～16:00　食べ放題は14時まで<br>※6月~8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日、火曜日",
+      "アクセス": "JR内房線「巌根駅」より約 2.9 km<br>アクアライン「木更津金田IC」より約 2 km<br><a href=\"https://rakofuru.com/farm/cain-no-sato/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/cain-no-sato/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://cain-farm.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://cain-farm.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、バス不可"
+    },
+    "pricingBrief": "高校生以上：1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "8:00～16:00　食べ放題は14時まで※6月~8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "8:00～16:00　食べ放題は14時まで6月~8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -293,16 +399,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "高校生以上：1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "8:00～16:00　食べ放題は14時まで※6月~8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -311,7 +407,10 @@
     "categorySlug": "chiba",
     "title": "ドラゴンファーム",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-649",
+      "srcUrl": "/images/blueberry/blueberry-23.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -324,7 +423,30 @@
     },
     "publishedAt": "2023-11-19T14:21:30+09:00",
     "updatedAt": "2023-11-25T10:03:53+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ドラゴンファーム",
+      "住所": "〒264-0007 千葉県千葉市若葉区小倉町1354",
+      "料金": "中学生以上：3000円<br>2歳以上：1500円<br>2歳未満：無料",
+      "電話番号": "<a href=\"tel:043-235-3788\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-235-3788</a>",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "千葉都市モノレール「千城台北駅」より約 1.6 km<br>京葉道路「貝塚IC」より約 5.2 km<br><a href=\"https://rakofuru.com/farm/dragon-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/dragon-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://dragonfarm-chiba.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://dragonfarm-chiba.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 3000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -344,16 +466,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 3000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -362,7 +474,10 @@
     "categorySlug": "chiba",
     "title": "クワタフルーツファーム",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-654",
+      "srcUrl": "/images/blueberry/blueberry-35.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -375,7 +490,29 @@
     },
     "publishedAt": "2023-11-19T14:43:54+09:00",
     "updatedAt": "2023-11-19T14:43:54+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "クワタフルーツファーム",
+      "住所": "〒289-0116　千葉県成田市名古屋1173",
+      "料金": "5歳以上：1,000円<br>5歳未満：0円",
+      "電話番号": "<a href=\"tel:047-696-1461\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-696-1461</a>",
+      "営業時間": "午前&nbsp;&nbsp;&nbsp;8:00～11:00<br>午後 13:00～16:00<br>※7月20日～8月15日(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR成田線「滑河駅」より約 3.2 km<br>圏央道「下総IC」より約 3.4 km<br><a href=\"https://rakofuru.com/farm/kuwata-fruits-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/kuwata-fruits-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://kuwataff.raku-uru.jp/\" target=\"_blank\" rel=\"noreferrer noopener\">https://kuwataff.raku-uru.jp/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、摘み取り1人500ｇまで"
+    },
+    "pricingBrief": "5歳以上：1,000円5歳未満：0円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "午前   8:00～11:00午後 13:00～16:00※7月20日～8月15日(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "午前   8:00～11:00午後 13:00～16:007月20日～8月15日詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -395,16 +532,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "5歳以上：1,000円5歳未満：0円",
-    "parkingBrief": "無料",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "午前   8:00～11:00午後 13:00～16:00※7月20日～8月15日※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -413,7 +540,10 @@
     "categorySlug": "chiba",
     "title": "アルベリー農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-657",
+      "srcUrl": "/images/blueberry/blueberry-33.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -426,7 +556,30 @@
     },
     "publishedAt": "2023-11-19T15:01:18+09:00",
     "updatedAt": "2023-11-19T15:07:08+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "アルベリー農園",
+      "住所": "〒270-1456 千葉県柏市泉2139",
+      "料金": "中学生以上：500円<br>中学生未満：300円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:080-5055-7224\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-5055-7224</a>",
+      "営業時間": "9:00～16:00<br>※7月中旬～9月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "東武アーバンパークライン「高柳駅」より約 5.6 km<br>常磐道「柏IC」より約 14.9 km<br><a href=\"https://rakofuru.com/farm/alberry-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/alberry-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"http://aruberi-farm.info/\" target=\"_blank\" rel=\"noreferrer noopener\">http://aruberi-farm.info/</a><br>※サーバー有効期限切れの可能性があります",
+      "支払い方法": "現金",
+      "備考": "要予約、持ち帰り250円/100g"
+    },
+    "pricingBrief": "500円中学生未満：300円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※7月中旬～9月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 500,
+    "hasTakeout": true,
+    "seasonBrief": "9:00～16:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -447,15 +600,6 @@
       "駐車場あり",
       "要予約",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "500円中学生未満：300円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 500,
-    "hasTakeout": true,
-    "seasonBrief": "9:00～16:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -464,7 +608,10 @@
     "categorySlug": "chiba",
     "title": "安貞ファーム・ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-662",
+      "srcUrl": "/images/blueberry/blueberry-25.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -477,7 +624,30 @@
     },
     "publishedAt": "2023-11-19T15:39:01+09:00",
     "updatedAt": "2023-11-19T16:32:17+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "安貞ファーム・ブルーベリー園",
+      "住所": "〒289-0424 千葉県香取市新里2138",
+      "料金": "入園料無料<br>100g/160円",
+      "電話番号": "<a href=\"tel:080-3217-2015\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-3217-2015</a>",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR成田線「小見川駅」より約 8.4 km<br>東関道「佐原香取IC」より約 13.5 km<br><a href=\"https://rakofuru.com/farm/antei-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/antei-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "入園料無料100g/160円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 100,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -497,16 +667,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "入園料無料100g/160円",
-    "parkingBrief": "無料",
-    "priceValue": 100,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -515,7 +675,10 @@
     "categorySlug": "chiba",
     "title": "つくいブルーベリー農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-664",
+      "srcUrl": "/images/blueberry/blueberry-03.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -528,7 +691,30 @@
     },
     "publishedAt": "2023-11-19T15:46:07+09:00",
     "updatedAt": "2023-11-25T11:49:40+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "つくいブルーベリー農園",
+      "住所": "〒286-0214 千葉県富里市立沢364-15",
+      "料金": "",
+      "電話番号": "",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 12 km<br>常磐道「酒々井IC」より約 5 km<br><a href=\"https://rakofuru.com/farm/tsukui-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/tsukui-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -548,16 +734,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "",
-    "parkingBrief": "無料",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -566,7 +742,10 @@
     "categorySlug": "chiba",
     "title": "新七農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-667",
+      "srcUrl": "/images/blueberry/blueberry-23.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -579,7 +758,30 @@
     },
     "publishedAt": "2023-11-19T15:54:09+09:00",
     "updatedAt": "2023-11-19T15:54:45+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "新七農園",
+      "住所": "〒272-0801 千葉県市川市大町340<br>（ピンポイントで出ないため、上記を入力し「新七農園」と再度入力してください）",
+      "料金": "大パック：1300円<br>中パック：1000円<br>小パック：600円",
+      "電話番号": "<a href=\"tel:043-235-3788\" data-type=\"tel\" data-id=\"tel:090-2726-9413\"></a><a href=\"tel:090-5540-1509\">090-5540-1509</a>",
+      "営業時間": "9:00～17:00<br>※6月~8月(予定)<br>※摘み取り時期は農園へお問い合わせください",
+      "定休日": "",
+      "アクセス": "JR武蔵野線「東松戸駅」より約 3.5 km<br>東京外観道「市川北IC」より約 6 km<br><a href=\"https://rakofuru.com/farm/shinshichi/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/shinshichi/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式SNS URL": "<a href=\"https://twitter.com/shin7farm\">https://twitter.com/shin7farm</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、30分~1時間摘み放題"
+    },
+    "pricingBrief": "大パック：1300円中パック：1000円小パック：600円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※6月~8月(予定)※摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1300,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:006月~8月摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -599,16 +801,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "大パック：1300円中パック：1000円小パック：600円",
-    "parkingBrief": "無料",
-    "priceValue": 1300,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00※6月~8月※摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -617,7 +809,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーファームかがやき",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-671",
+      "srcUrl": "/images/blueberry/blueberry-15.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -630,7 +825,30 @@
     },
     "publishedAt": "2023-11-19T16:18:01+09:00",
     "updatedAt": "2023-11-19T16:18:01+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーファームかがやき",
+      "住所": "〒292-0032 千葉県木更津市笹子619-2",
+      "料金": "中学生以上：1000円<br>5歳以上：500円<br>5歳未満：無料",
+      "電話番号": "<a href=\"tel:090-7948-8402\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-7948-8402</a>",
+      "営業時間": "9:00～16:00<br>※7月上旬～9月中旬予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「東清川駅」より約  1 km<br>館山道「木更津北IC」より約 900 m<br><a href=\"https://rakofuru.com/farm/blueberry-farm-kagayaki/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-farm-kagayaki/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式SNS URL": "<a href=\"https://www.instagram.com/farm_kagayaki/?hl=ja\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.instagram.com/farm_kagayaki/?hl=ja</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "1000円5歳以上：500円5歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※7月上旬～9月中旬予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -650,15 +868,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円5歳以上：500円5歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -667,7 +876,10 @@
     "categorySlug": "chiba",
     "title": "※摘み取り休園中　ファーム鈴木",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-675",
+      "srcUrl": "/images/blueberry/blueberry-35.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -680,7 +892,30 @@
     },
     "publishedAt": "2023-11-19T16:29:04+09:00",
     "updatedAt": "2023-11-25T11:15:38+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ファーム鈴木",
+      "住所": "〒289-1618 千葉県山武郡芝山町山中698",
+      "料金": "",
+      "電話番号": "",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "総武線「松尾駅」より約 9.3 km<br>圏央道「松尾横芝IC」より約 5.8 km<br><a href=\"https://rakofuru.com/farm/farm-suzuki/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/farm-suzuki/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.bbfarmsuzuki.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.bbfarmsuzuki.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -700,16 +935,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "",
-    "parkingBrief": "無料",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -718,7 +943,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーファーム ベリーの森",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-684",
+      "srcUrl": "/images/blueberry/blueberry-03.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -731,7 +959,30 @@
     },
     "publishedAt": "2023-11-19T17:31:36+09:00",
     "updatedAt": "2023-11-19T17:32:39+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーファーム ベリーの森",
+      "住所": "〒292-0035 千葉県木更津市中尾1173",
+      "料金": "中学生以上：1000円<br>小学生以下：500円",
+      "電話番号": "<a href=\"tel:0438-30-5077\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">0438-30-5077</a>",
+      "営業時間": "10:00～17:00<br>※7月中旬～9月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「上総清川駅」より約 1.2 km<br>アクアライン「袖ケ浦IC」より約 3.6 km<br><a href=\"https://rakofuru.com/farm/berry-no-mori/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/berry-no-mori/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://berry-no-mori.com/blueberry-picking\" target=\"_blank\" rel=\"noreferrer noopener\">https://berry-no-mori.com/blueberry-picking</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "1000円小学生以下：500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～17:00※7月中旬～9月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "10:00～17:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -751,15 +1002,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以下：500円",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "10:00～17:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -768,7 +1010,10 @@
     "categorySlug": "chiba",
     "title": "千葉農大商店模擬会社 ブルーベリー観光農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-692",
+      "srcUrl": "/images/blueberry/blueberry-01.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -781,7 +1026,30 @@
     },
     "publishedAt": "2023-11-19T17:36:15+09:00",
     "updatedAt": "2023-11-25T11:48:05+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "千葉農大商店模擬会社 ブルーベリー観光農園",
+      "住所": "〒283-0001 千葉県東金市家之子1059",
+      "料金": "中学生以上：3000円<br>2歳以上：1500円<br>2歳未満：無料",
+      "電話番号": "<a href=\"tel:043-235-3788\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-235-3788</a>",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "千葉都市モノレール「千城台北駅」より約 1.6 km<br>京葉道路「貝塚IC」より約 5.2 km<br><a href=\"https://rakofuru.com/farm/chiba-nodai-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/chiba-nodai-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://cacmogigaisya.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://cacmogigaisya.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 3000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -801,16 +1069,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "3000円2歳以上：1500円2歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 3000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -819,7 +1077,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーガーデンIKEDA",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-695",
+      "srcUrl": "/images/blueberry/blueberry-02.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -832,7 +1093,30 @@
     },
     "publishedAt": "2023-11-19T17:40:01+09:00",
     "updatedAt": "2023-11-25T12:00:16+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーガーデンIKEDA",
+      "住所": "〒270-0171 千葉県流山市上貝塚202-1",
+      "料金": "4歳以上：&nbsp;<strong>550</strong>円（入園料）<br>4歳未満：無料",
+      "電話番号": "<a href=\"tel:080-3752-2620\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-3752-2620</a>",
+      "営業時間": "9:00～12:00<br>※6月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "東武アーバンパークライン「初石駅」より約 2.1 km<br>常磐道「流山IC」より約 1 km<br><a href=\"https://rakofuru.com/farm/blueberry-garden-ikeda/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-garden-ikeda/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://bg-ikeda.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://bg-ikeda.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、摘み取り：275円/100g、販売：378円/100g"
+    },
+    "pricingBrief": "4歳以上： 550円（入園料）4歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～12:00※6月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 550,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～12:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -852,16 +1136,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "4歳以上： 550円（入園料）4歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 550,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～12:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -870,7 +1144,10 @@
     "categorySlug": "chiba",
     "title": "櫻井梨園ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-697",
+      "srcUrl": "/images/blueberry/blueberry-06.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -883,7 +1160,29 @@
     },
     "publishedAt": "2023-11-19T17:42:05+09:00",
     "updatedAt": "2023-11-25T11:46:59+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "櫻井梨園ブルーベリー園",
+      "住所": "〒276-0041 千葉県八千代市麦丸",
+      "料金": "小学生以上：800円<br>4歳以上：600円<br>4歳未満：無料",
+      "電話番号": "<a href=\"tel:047-450-1598\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-450-1598</a> / <a href=\"http://tel;090-3045-1174\">090-3045-1174</a>",
+      "営業時間": "12:30～17:00<br>※7月中旬～8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "京成線「京成大和田駅」より約 5.2 km<br>東関道「千葉北IC」より約 11 km<br><a href=\"https://rakofuru.com/farm/sakurai-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/sakurai-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式SNS URL": "<a href=\"https://www.instagram.com/nashi.626/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.instagram.com/nashi.626/</a>",
+      "支払い方法": "現金",
+      "備考": "30分間積み放題食べ放題、1パック/110gお土産付き"
+    },
+    "pricingBrief": "小学生以上：800円4歳以上：600円4歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "12:30～17:00※7月中旬～8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 800,
+    "hasTakeout": false,
+    "seasonBrief": "12:30～17:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -902,16 +1201,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12952.958600625794!2d140.1049878!3d35.744914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228795133c3dc9%3A0xee1ff27e78b72341!2z5qu75LqV5qKo5ZyS44OW44Or44O844OZ44Oq44O85ZyS!5e0!3m2!1sja!2sjp!4v1699887909099!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "小学生以上：800円4歳以上：600円4歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 800,
-    "hasTakeout": false,
-    "seasonBrief": "12:30～17:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -920,7 +1209,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリー大角",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-699",
+      "srcUrl": "/images/blueberry/blueberry-07.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -933,7 +1225,30 @@
     },
     "publishedAt": "2023-11-19T17:44:18+09:00",
     "updatedAt": "2023-11-29T21:50:57+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリー大角",
+      "住所": "〒289-0425 千葉県香取市大角1802",
+      "料金": "入園料：200円<br>小学生以下：無料",
+      "電話番号": "<a href=\"tel:047-879-9711\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-879-9711</a>",
+      "営業時間": "8:00～17:00<br>※7月中旬～9月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR成田線「小見川駅」より約 8.6 km<br>東関道「大栄IC」より約 13 km<br><a href=\"https://rakofuru.com/farm/blueberry-otogari/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-otogari/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://r.goope.jp/bberry-ootogari/\" target=\"_blank\" rel=\"noreferrer noopener\">https://r.goope.jp/bberry-ootogari/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、摘み取り：200円/100g"
+    },
+    "pricingBrief": "入園料：200円小学生以下：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "8:00～17:00※7月中旬～9月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 200,
+    "hasTakeout": false,
+    "seasonBrief": "8:00～17:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -953,15 +1268,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "入園料：200円小学生以下：無料",
-    "parkingBrief": "無料",
-    "priceValue": 200,
-    "hasTakeout": false,
-    "seasonBrief": "8:00～17:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -970,7 +1276,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーパーク成田",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-756",
+      "srcUrl": "/images/blueberry/blueberry-08.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -983,7 +1292,30 @@
     },
     "publishedAt": "2023-11-19T20:17:49+09:00",
     "updatedAt": "2024-10-05T18:28:19+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーパーク成田",
+      "住所": "〒286-0101 千葉県成田市十余三59-5",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:047-637-3126\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-637-3126</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/blueberry-park-narita/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-park-narita/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://blueberry-park.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://blueberry-park.com/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1002,16 +1334,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12943.583154296779!2d140.3621191!3d35.8024916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022f5c6b009979f%3A0xebecf403a91f2651!2z44OW44Or44O844OZ44Oq44O844OR44O844Kv5oiQ55Sw!5e0!3m2!1sja!2sjp!4v1699882623942!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1020,7 +1342,10 @@
     "categorySlug": "chiba",
     "title": "佐原ベリーファーム",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-701",
+      "srcUrl": "/images/blueberry/blueberry-08.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1033,7 +1358,29 @@
     },
     "publishedAt": "2023-11-19T17:47:05+09:00",
     "updatedAt": "2023-11-26T01:20:24+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "佐原ベリーファーム",
+      "住所": "〒287-0022 千葉県香取市九美上91-24",
+      "料金": "小学生以上：1500円<br>小学生未満：1000円",
+      "電話番号": "<a href=\"tel:047-879-6526\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-879-6526</a> / <a href=\"http://tel;090-2642-6738\">090-2642-6738</a>",
+      "営業時間": "9:00～17:00<br>※7月中旬～8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日<br>※祝日の場合は営業",
+      "アクセス": "成田線「佐原駅」より約 8.8 km<br>東関道「大栄IC」より約 10.3 km<br><a href=\"https://rakofuru.com/farm/sawara-berry-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/sawara-berry-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"http://sawaraberryfarm.com/\" target=\"_blank\" rel=\"noreferrer noopener\">http://sawaraberryfarm.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、持ち帰り：300円/100g、持ち込み可<br>1Kg以上お持帰りで一人分の入園料をキャッシュバック"
+    },
+    "pricingBrief": "小学生以上：1500円小学生未満：1000円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※7月中旬～8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": true,
+    "seasonBrief": "9:00～17:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1054,16 +1401,6 @@
       "駐車場あり",
       "要予約",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "小学生以上：1500円小学生未満：1000円",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": true,
-    "seasonBrief": "9:00～17:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1072,7 +1409,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーテラス福田農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-706",
+      "srcUrl": "/images/blueberry/blueberry-33.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1085,7 +1425,29 @@
     },
     "publishedAt": "2023-11-19T17:50:51+09:00",
     "updatedAt": "2023-11-30T22:42:20+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーテラス福田農園",
+      "住所": "〒298-0026 千葉県いすみ市新田野2016-1",
+      "料金": "小学生以上：600円<br>小学生以下：300円<br>2歳未満：無料",
+      "電話番号": "<a href=\"tel:090-4350-9868\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-4350-9868</a>",
+      "営業時間": "10:00～16:00<br>※7月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "いすみ鉄道「新田野駅」より約 1.2 km<br>圏央道「市原鶴舞IC」より約 21 km<br><a href=\"https://rakofuru.com/farm/blueberry-terrace-fukuda/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-terrace-fukuda/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.fukudanouen.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.fukudanouen.com/</a>",
+      "支払い方法": "現金",
+      "備考": "お土産200g付き、追加持ち帰りは300円/100g"
+    },
+    "pricingBrief": "小学生以上：600円小学生以下：300円2歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～16:00※7月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 600,
+    "hasTakeout": true,
+    "seasonBrief": "10:00～16:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1105,16 +1467,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "小学生以上：600円小学生以下：300円2歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 600,
-    "hasTakeout": true,
-    "seasonBrief": "10:00～16:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1123,7 +1475,10 @@
     "categorySlug": "chiba",
     "title": "恋するブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-708",
+      "srcUrl": "/images/blueberry/blueberry-04.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1136,7 +1491,30 @@
     },
     "publishedAt": "2023-11-19T17:53:25+09:00",
     "updatedAt": "2024-08-22T02:39:04+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "恋するブルーベリー園",
+      "住所": "〒286-0114 千葉県成田市本城181",
+      "料金": "高校生以上：500円<br>小学生以上：300円<br>小学生未満：無料",
+      "電話番号": "<a href=\"tel:047-635-2585\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-635-2585</a>",
+      "営業時間": "9:30から16:00<br>※6月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "水･木曜日（祝日の場合は営業）",
+      "アクセス": "JR成田線「成田駅」より約 8.1 km<br>東関道「富里IC」より約 6.7 km<br><a href=\"https://rakofuru.com/farm/koisuru-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/koisuru-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://koisurublueberry.wixsite.com/website\" target=\"_blank\" rel=\"noreferrer noopener\">https://koisurublueberry.wixsite.com/website</a>",
+      "支払い方法": "現金",
+      "備考": "摘み取り : 250円/100g<br>おまかせ : 350円/100g<br>冷凍　　 : 1,250円/500g"
+    },
+    "pricingBrief": "高校生以上：500円小学生以上：300円小学生未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:30から16:00※6月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 500,
+    "hasTakeout": false,
+    "seasonBrief": "9:30から16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1155,16 +1533,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12954.459082608471!2d140.3644519!3d35.7356916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022f2deb9ac2fe1%3A0x4be615d19599cc35!2z5oGL44GZ44KL44OW44Or44O844OZ44Oq44O85ZyS!5e0!3m2!1sja!2sjp!4v1699887503769!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "高校生以上：500円小学生以上：300円小学生未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 500,
-    "hasTakeout": false,
-    "seasonBrief": "9:30から16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1173,7 +1541,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーファーム新松戸",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-710",
+      "srcUrl": "/images/blueberry/blueberry-20.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1186,7 +1557,29 @@
     },
     "publishedAt": "2023-11-19T17:56:00+09:00",
     "updatedAt": "2023-12-02T19:41:12+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーファーム新松戸",
+      "住所": "〒271-0041 千葉県松戸市七右衛門新田５０５",
+      "料金": "中学生以上：1800円<br>小学生以上または65歳以上：1300円<br>4歳以上：600円<br>4歳未満：無料",
+      "電話番号": "<a href=\"tel:080-4857-0141\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-4857-0141</a>",
+      "営業時間": "9:00～17:00<br>※7月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月・火曜日",
+      "アクセス": "JR武蔵野線「南流山駅」より約 2.2 km<br>外環道「三郷南IC」より約 6.5 km<br><a href=\"https://rakofuru.com/farm/blueberry-farm-shinmatsudo/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-farm-shinmatsudo/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://obatafarm.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://obatafarm.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約"
+    },
+    "pricingBrief": "1800円小学生以上または65歳以上：1300円4歳以上：600円4歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※7月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1800,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1206,16 +1599,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "1800円小学生以上または65歳以上：1300円4歳以上：600円4歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1800,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1224,7 +1607,10 @@
     "categorySlug": "chiba",
     "title": "わらびブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-713",
+      "srcUrl": "/images/blueberry/blueberry-28.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1237,7 +1623,29 @@
     },
     "publishedAt": "2023-11-19T17:59:22+09:00",
     "updatedAt": "2023-12-06T18:41:21+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "わらびブルーベリー園",
+      "住所": "〒289-1100 千葉県八街市八街ろ-165-59",
+      "料金": "入園料：500円<br>※1kg未満の持ち帰りの場合入園料1000円",
+      "電話番号": "<a href=\"tel:080-1140-1171\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-1140-1171</a>",
+      "営業時間": "5:30～10:00<br>※7月上旬〜8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月・火・木・金曜日",
+      "アクセス": "総武本線「榎戸駅」より約 750 m<br>東関道「佐倉IC」より約 8.0 km<br><a href=\"https://rakofuru.com/farm/warabi-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/warabi-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式SNS URL": "<a href=\"https://www.facebook.com/warabiblueberryen/?locale=ja_JP\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.facebook.com/warabiblueberryen/?locale=ja_JP</a>",
+      "支払い方法": "現金",
+      "備考": "団体様要予約、お持ち帰り：120円/100g"
+    },
+    "pricingBrief": "入園料：500円※1kg未満の持ち帰りの場合入園料1000円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "5:30～10:00※7月上旬〜8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 500,
+    "hasTakeout": true,
+    "seasonBrief": "5:30～10:007月〜8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1258,16 +1666,6 @@
       "駐車場あり",
       "要予約",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "入園料：500円※1kg未満の持ち帰りの場合入園料1000円",
-    "parkingBrief": "無料",
-    "priceValue": 500,
-    "hasTakeout": true,
-    "seasonBrief": "5:30～10:00※7月〜8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1276,7 +1674,10 @@
     "categorySlug": "chiba",
     "title": "安原ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-715",
+      "srcUrl": "/images/blueberry/blueberry-08.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1289,7 +1690,30 @@
     },
     "publishedAt": "2023-11-19T18:01:36+09:00",
     "updatedAt": "2023-12-07T03:32:19+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "安原ブルーベリー園",
+      "住所": "〒276-0047 千葉県八千代市吉橋2635",
+      "料金": "中学生以上：1800円<br>小学生以上：1200円<br>小学生未満：800円",
+      "電話番号": "<a href=\"tel:090-7846-5100\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-7846-5100</a>",
+      "営業時間": "平日｜9:00～12:00<br>休日｜8:00～17:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "成田線「小室駅」より約 8.0 km<br>東関道「千葉北IC」より約 12.9 km<br><a href=\"https://rakofuru.com/farm/yasuhara-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/yasuhara-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://ya-koichi.sakura.ne.jp/wp/\">https://ya-koichi.sakura.ne.jp/wp/</a>",
+      "支払い方法": "現金",
+      "備考": "お持ち帰り(1 kgまで)：100g/250円"
+    },
+    "pricingBrief": "1800円小学生以上：1200円小学生未満：800円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "平日｜9:00～12:00休日｜8:00～17:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1800,
+    "hasTakeout": true,
+    "seasonBrief": "平日｜9:00～12:00休日｜8:00～17:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1309,16 +1733,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "1800円小学生以上：1200円小学生未満：800円",
-    "parkingBrief": "無料",
-    "priceValue": 1800,
-    "hasTakeout": true,
-    "seasonBrief": "平日｜9:00～12:00休日｜8:00～17:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1327,7 +1741,10 @@
     "categorySlug": "chiba",
     "title": "くれいんひるず",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-717",
+      "srcUrl": "/images/blueberry/blueberry-18.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1340,7 +1757,30 @@
     },
     "publishedAt": "2023-11-19T18:14:29+09:00",
     "updatedAt": "2023-11-25T11:09:59+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "くれいんひるず",
+      "住所": "〒292-0201 千葉県木更津市真里谷1994",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:090-8330-8005\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-8330-8005</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/cranehills/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/cranehills/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://cranehills.jimdofree.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://cranehills.jimdofree.com/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1359,16 +1799,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13013.72562431258!2d140.0754505!3d35.3697548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022a13479cfa54f%3A0x502e6f7fcd17cd3e!2z44GP44KM44GE44KT44Gy44KL44Ga!5e0!3m2!1sja!2sjp!4v1699886951636!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1377,7 +1807,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリー園HANA",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-723",
+      "srcUrl": "/images/blueberry/blueberry-22.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1390,7 +1823,30 @@
     },
     "publishedAt": "2023-11-19T18:19:47+09:00",
     "updatedAt": "2023-11-25T11:09:11+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリー園HANA",
+      "住所": "〒289-1201 千葉県山武市板川77",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:080-6766-8778\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-6766-8778</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/blueberry-hana/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-hana/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1409,16 +1865,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12966.033707616529!2d140.3897341!3d35.6644811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022ec58773f9219%3A0xb9b9f243f8d871e1!2z44OW44Or44O844OZ44Oq44O85ZySSEFOQQ!5e0!3m2!1sja!2sjp!4v1699886865623!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1427,7 +1873,10 @@
     "categorySlug": "chiba",
     "title": "きのえね農園 ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-725",
+      "srcUrl": "/images/blueberry/blueberry-26.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1440,7 +1889,30 @@
     },
     "publishedAt": "2023-11-19T18:24:01+09:00",
     "updatedAt": "2025-05-15T19:10:37+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "きのえね農園 ブルーベリー園",
+      "住所": "〒285-0914 千葉県印旛郡印旛郡酒々井町馬橋 台畑36番1",
+      "料金": "■2時間食べ放題 （予約なし料金）<br>中学生以上：1500円 （1800円）<br>小学生以上：800円（1000円）<br>未就学児　：無料<br><br>お土産 100g付き",
+      "電話番号": "<a href=\"tel:043-496-1001\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-496-1001</a>",
+      "営業時間": "10:00～16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日",
+      "アクセス": "JR総武本線「南酒々井駅」より約 900 m<br>東関道「酒々井IC」より約 4.8 km<br><a href=\"https://rakofuru.com/farm/kinoene/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/kinoene/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.iinumahonke.co.jp/\">https://www.iinumahonke.co.jp/</a>",
+      "支払い方法": "現金、paypay、クレジットカード、交通系IC",
+      "備考": "予約で割引アリ<br><br><a href=\"https://www.jalan.net/kankou/spt_guide000000187303/\" data-type=\"link\" data-id=\"https://www.jalan.net/kankou/spt_guide000000187303/\" target=\"_blank\" rel=\"noreferrer noopener\">■予約はコチラから</a>"
+    },
+    "pricingBrief": "■2時間食べ放題 （予約なし料金）1500円 （1800円）小学生以上：800円（1000円）未就学児　：無料お土産 100g付き",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": false,
+    "seasonBrief": "10:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1461,16 +1933,6 @@
       "食べ放題",
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "■2時間食べ放題 （予約なし料金）1500円 （1800円）小学生以上：800円（1000円）未就学児　：無料お土産 100g付き",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": false,
-    "seasonBrief": "10:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1479,7 +1941,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリーの里 アスナロ農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-727",
+      "srcUrl": "/images/blueberry/blueberry-06.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1492,7 +1957,30 @@
     },
     "publishedAt": "2023-11-19T18:28:58+09:00",
     "updatedAt": "2025-05-13T12:44:20+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーの里 アスナロ農園",
+      "住所": "〒270-0236 千葉県野田市東金野井530-1",
+      "料金": "■食べ放題 (30分)<br>高校生以上：1500円/30分<br>中高生以上：1000円/30分<br>小学生　　：700円/30分<br>未就学児　：500円/30分<br><br>■摘み放題 500円/100g<br>入場料: <br>高校生以上：1000円<br>高校生以下：500円",
+      "電話番号": "<a href=\"tel:047-189-8250\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-189-8250</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "東武アーバンパークライン「川間駅」より約 2.6 km<br>東北道「蓮田スマートIC」より約 17.9 km<br><a href=\"https://rakofuru.com/farm/asunaro/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/asunaro/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.instagram.com/asunarofarm/\">https://www.instagram.com/asunarofarm/</a>",
+      "支払い方法": "現金、PayPay",
+      "備考": "予約は一週間前, 仮設トイレ"
+    },
+    "pricingBrief": "■食べ放題 (30分)高校生以上：1500円/30分中高生以上：1000円/30分小学生　　：700円/30分未就学児　：500円/30分■摘み放題 500円/100g入場料: 高校生以上：1000円高校生以下：500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1513,16 +2001,6 @@
       "食べ放題",
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "■食べ放題 (30分)高校生以上：1500円/30分中高生以上：1000円/30分小学生　　：700円/30分未就学児　：500円/30分■摘み放題 500円/100g入場料: 高校生以上：1000円高校生以下：500円",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1531,7 +2009,10 @@
     "categorySlug": "chiba",
     "title": "※休園中　ブルーベリーキッズ",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-729",
+      "srcUrl": "/images/blueberry/blueberry-05.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1544,7 +2025,26 @@
     },
     "publishedAt": "2023-11-19T18:32:44+09:00",
     "updatedAt": "2025-05-13T13:10:53+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリーキッズ",
+      "住所": "〒270-2328 千葉県印西市滝886付近",
+      "料金": "",
+      "電話番号": "<a href=\"tel:080-5534-8958\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-5534-8958</a>",
+      "営業時間": "<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "<br><a href=\"https://rakofuru.com/farm/blueberry-kids/#access\">■詳細はコチラ</a>",
+      "駐車場": "<br><a href=\"https://rakofuru.com/farm/blueberry-kids/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.berry77.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.berry77.com/</a>",
+      "支払い方法": "",
+      "備考": ""
+    },
+    "pricingBrief": "",
+    "parkingBrief": "■詳細はコチラ",
+    "hoursBrief": "※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "",
+    "seasonMonths": [],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1561,14 +2061,7 @@
     ],
     "reviewWidgetId": null,
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12940.593182879775!2d140.1720265!3d35.8208371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60227d9a17a45f5f%3A0xed4ef45c55c8b0e3!2z44OW44Or44O844OZ44Oq44O844Kt44OD44K6!5e0!3m2!1sja!2sjp!4v1699885992469!5m2!1sja!2sjp",
-    "features": [],
-    "comments": [],
-    "pricingBrief": "",
-    "parkingBrief": "",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "",
-    "seasonMonths": []
+    "features": []
   },
   {
     "id": "farm-731",
@@ -1576,7 +2069,10 @@
     "categorySlug": "chiba",
     "title": "吉田ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-731",
+      "srcUrl": "/images/blueberry/blueberry-07.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1589,7 +2085,30 @@
     },
     "publishedAt": "2023-11-19T18:34:58+09:00",
     "updatedAt": "2025-05-13T13:36:08+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "吉田ブルーベリー園",
+      "住所": "〒270-0137 千葉県流山市市野谷123",
+      "料金": "■摘み放題 200円/100g<br>入場料:<br>中学生以上：400円<br>小学生以上：200円<br>未就学児　：無料",
+      "電話番号": "<a href=\"tel:047-158-2073\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-158-2073</a>",
+      "営業時間": "8:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "つくばエクスプレス「流山セントラルパーク駅」より約 1.5 km<br>常磐道「流山IC」より約 4.0 km<br><a href=\"https://rakofuru.com/farm/yoshida-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/yoshida-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "1kg以上摘み取りで入場料無料"
+    },
+    "pricingBrief": "■摘み放題 200円/100g入場料:400円小学生以上：200円未就学児　：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "8:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 200,
+    "hasTakeout": false,
+    "seasonBrief": "8:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1608,16 +2127,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12933.888111257656!2d139.9138896!3d35.8619477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189ba25416bb0d%3A0x43f492af9e3c808f!2z5ZCJ55Sw44OW44Or44O844OZ44Oq44O85ZyS!5e0!3m2!1sja!2sjp!4v1699885859566!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "■摘み放題 200円/100g入場料:400円小学生以上：200円未就学児　：無料",
-    "parkingBrief": "無料",
-    "priceValue": 200,
-    "hasTakeout": false,
-    "seasonBrief": "8:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1626,7 +2135,10 @@
     "categorySlug": "chiba",
     "title": "長狭ブルーベリーヒルズ",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-734",
+      "srcUrl": "/images/blueberry/blueberry-26.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1639,7 +2151,30 @@
     },
     "publishedAt": "2023-11-19T18:38:48+09:00",
     "updatedAt": "2023-11-25T10:59:55+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "長狭ブルーベリーヒルズ",
+      "住所": "〒296-0103 千葉県鴨川市上小原249",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:047-097-0148\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-097-0148</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/nagasa-blueberry-hills/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/nagasa-blueberry-hills/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.nagasa-blueberryhills.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.nagasa-blueberryhills.com/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1658,16 +2193,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13053.5776988973!2d140.0342525!3d35.1218295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x603d55492b17b86b%3A0x5aeb1a962fba8c9e!2z6ZW354ut44OW44Or44O844OZ44Oq44O844OS44Or44K6!5e0!3m2!1sja!2sjp!4v1699885641374!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1676,7 +2201,10 @@
     "categorySlug": "chiba",
     "title": "完熟ブルーベリー －農園『花囲夢（かいむ）』－",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-736",
+      "srcUrl": "/images/blueberry/blueberry-32.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1689,7 +2217,30 @@
     },
     "publishedAt": "2023-11-19T18:41:42+09:00",
     "updatedAt": "2023-11-25T10:58:57+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "完熟ブルーベリー －農園『花囲夢（かいむ）』－",
+      "住所": "〒270-1101 千葉県我孫子市布佐826",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:047-189-2825\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">047-189-2825</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/kaimu/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/kaimu/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.kaimu.jp/shop/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.kaimu.jp/shop/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1708,16 +2259,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12933.91250652855!2d140.1185242!3d35.8617982!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60227bcb1bc3ff0f%3A0x422a258454fbd37c!2z5a6M54af44OW44Or44O844OZ44Oq44O8IO-8jei-suWckuOAjuiKseWbsuWkou-8iOOBi-OBhOOCgO-8ieOAj--8jQ!5e0!3m2!1sja!2sjp!4v1699885485793!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1726,7 +2267,10 @@
     "categorySlug": "chiba",
     "title": "※閉園 ブルーベリー高橋",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-738",
+      "srcUrl": "/images/blueberry/blueberry-16.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1739,7 +2283,30 @@
     },
     "publishedAt": "2023-11-19T18:44:03+09:00",
     "updatedAt": "2025-05-13T11:27:55+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリー高橋",
+      "住所": "〒270-1415 千葉県白井市清戸726-1",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:080-6700-6188\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-6700-6188</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 1.6 km<br>圏央道「木更津東IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/blueberry-takahashi/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/blueberry-takahashi/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1758,16 +2325,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12943.901231769229!2d140.0978776!3d35.8005395!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60227fe27c7ff4c7%3A0x44ae0bc39b97ca72!2z44OW44Or44O844OZ44Oq44O86auY5qmL!5e0!3m2!1sja!2sjp!4v1699885391205!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1776,7 +2333,10 @@
     "categorySlug": "chiba",
     "title": "B. ベリーファーム 泉の丘",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-740",
+      "srcUrl": "/images/blueberry/blueberry-07.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1789,7 +2349,30 @@
     },
     "publishedAt": "2023-11-19T18:47:57+09:00",
     "updatedAt": "2025-05-13T15:13:08+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "B. ベリーファーム 泉の丘",
+      "住所": "〒265-0045 千葉県千葉市若葉区上泉町648",
+      "料金": "■摘み放題<br>入場料:<br>中学生以上：1000円<br>小学生以上：500円<br>未就学児　：無料<br><br>6月: 250円/100g, 7月: 230円/100g, 8月: 210円/100g",
+      "電話番号": "<a href=\"tel:090-8454-9579\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-8454-9579</a>",
+      "営業時間": "9時30分～16時<br>※6月上旬～8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR総務本線「四街道駅」より約 9.5 km<br>東関道「佐倉IC」より約 9.6 km<br><a href=\"https://rakofuru.com/farm/b-berry-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/b-berry-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://b-berry-farm-izuminooka.jimdofree.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://b-berry-farm-izuminooka.jimdofree.com/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "■摘み放題入場料:1000円小学生以上：500円未就学児　：無料6月: 250円/100g, 7月: 230円/100g, 8月: 210円/100g",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9時30分～16時※6月上旬～8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9時30分～16時6月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1808,16 +2391,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12972.286424089456!2d140.2397557!3d35.6259612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602291bcaa773627%3A0xa4d26b502ac648b3!2zQi4g44OZ44Oq44O844OV44Kh44O844OgIOazieOBruS4mA!5e0!3m2!1sja!2sjp!4v1699885232060!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "■摘み放題入場料:1000円小学生以上：500円未就学児　：無料6月: 250円/100g, 7月: 230円/100g, 8月: 210円/100g",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9時30分～16時※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1826,7 +2399,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリー農園こでら",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-742",
+      "srcUrl": "/images/blueberry/blueberry-28.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1839,7 +2415,30 @@
     },
     "publishedAt": "2023-11-19T18:50:43+09:00",
     "updatedAt": "2025-05-13T15:03:18+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリー農園こでら",
+      "住所": "〒270-1324 千葉県印西市平岡200",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:090-6568-7252\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-6568-7252</a>",
+      "営業時間": "10:00～17:00　最終入場16:00<br>※6月中旬～8月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月・火曜日",
+      "アクセス": "JR成田線「小林駅」より約 2.2 km<br>東関道道「四街道IC」より約 22.2 km<br><a href=\"https://rakofuru.com/farm/kodera-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/kodera-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"http://bluebery.sakura.ne.jp/\" target=\"_blank\" rel=\"noreferrer noopener\">http://bluebery.sakura.ne.jp/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～17:00　最終入場16:00※6月中旬～8月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "10:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1858,16 +2457,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12937.515772887738!2d140.1842222!3d35.8397106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022634cbed2e0cf%3A0xdf9cca901297d220!2z44OW44Or44O844OZ44Oq44O86L6y5ZyS44GT44Gn44KJ!5e0!3m2!1sja!2sjp!4v1699885024410!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "10:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -1876,7 +2465,10 @@
     "categorySlug": "chiba",
     "title": "フルーツ街道夢農場",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-745",
+      "srcUrl": "/images/blueberry/blueberry-23.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1889,7 +2481,29 @@
     },
     "publishedAt": "2023-11-19T18:53:48+09:00",
     "updatedAt": "2025-05-13T14:50:08+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "フルーツ街道夢農場",
+      "住所": "〒292-0201 千葉県木更津市真里谷2816",
+      "料金": "■食べ放題 (時間無制限)<br>中学生以上：1500円<br>３歳以上　：800円<br>幼児　　　：無料<br><br>■お持ち帰り料金<br>・300円/100g<br>・600円/200g<br>・900円/300g<br>・1500円/500g",
+      "電話番号": "<a href=\"tel:043-853-8120\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-853-8120</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※7月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR久留里線「馬来田駅」より約 4.2 km<br>圏央道「木更津東IC」より約 5.6 km<br><a href=\"https://rakofuru.com/farm/yumenojo/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/yumenojo/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://yumenojyo.com/\">https://yumenojyo.com/</a>",
+      "支払い方法": "現金、QRコード、電子マネー、クレジットカード",
+      "注意事項": "・ペットとの入園は、ペット用のカート等に乗っている場合又はペット用のおむつを着用している場合にのみ入園可能となります。<br>※カフェ・売店入場できません<br><br>・大きなクーラーボックスの持ち込みは、ご遠慮願います。中身を確認させていただく場合がありますので、あらかじめご了承ください。<br><br>・動きやすいカジュアルな服装でお越しください。<br><br>・暑さ対策として、園内で麦わら帽子の貸し出しと冷めたい飲み水の提供を行っています。<br><br>・園内に喫煙所を用意しております。喫煙は定められた場所でお願いします。<br><br>・団体様のご来園は事前のご予約をお願いしております。<br><br>・サッカーボールや水鉄砲などの遊具の持ち込みはご遠慮下さい可"
+    },
+    "pricingBrief": "■食べ放題 (時間無制限)1500円３歳以上　：800円幼児　　　：無料■お持ち帰り料金・300円/100g・600円/200g・900円/300g・1500円/500g",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※7月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1909,16 +2523,6 @@
     "features": [
       "食べ放題",
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "■食べ放題 (時間無制限)1500円３歳以上　：800円幼児　　　：無料■お持ち帰り料金・300円/100g・600円/200g・900円/300g・1500円/500g",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1927,7 +2531,10 @@
     "categorySlug": "chiba",
     "title": "藤崎ブルーベリーファーム",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-747",
+      "srcUrl": "/images/blueberry/blueberry-35.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1940,7 +2547,29 @@
     },
     "publishedAt": "2023-11-19T18:57:29+09:00",
     "updatedAt": "2025-05-13T15:41:54+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "藤崎ブルーベリーファーム",
+      "住所": "〒285-0905 千葉県印旛郡印旛郡酒々井町上岩橋917-1",
+      "料金": "■摘み放題 (1時間) 3300円/1 kg<br>入場料:<br>小学生以上：1200円<br>未就学児　：700円",
+      "電話番号": "<a href=\"tel:080-1242-2504\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-1242-2504</a>",
+      "営業時間": "午前：9:00～12:00　午後：13:00～15:00<br>※7月上旬～8月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月・火・木曜日",
+      "アクセス": "JR成田線「酒々井駅」より約 1.8 km<br>東関道「酒々井IC」より約 4.5 km<br><a href=\"https://rakofuru.com/farm/fujisaki-blueberry-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/fujisaki-blueberry-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://farm-fujisaki.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://farm-fujisaki.com/</a>",
+      "支払い方法": "現金",
+      "注意事項": "じゃらんから予約<br><a href=\"https://www.jalan.net/kankou/spt_guide000000214954/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.jalan.net/kankou/spt_guide000000214954/</a><br><br>＊受付から農園までは徒歩3分。<br>＊水道、お手洗いは受付にありますが農園にはありません。<br>＊園内は禁煙です。<br>＊摘み取り中はブルーベリーの株まわりを踏み荒らさないようにお願いします。"
+    },
+    "pricingBrief": "■摘み放題 (1時間) 3300円/1 kg入場料:小学生以上：1200円未就学児　：700円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "午前：9:00～12:00　午後：13:00～15:00※7月上旬～8月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 3300,
+    "hasTakeout": false,
+    "seasonBrief": "午前：9:00～12:00　午後：13:00～15:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -1959,16 +2588,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12953.574654948978!2d140.2811784!3d35.7411278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228c0bbab83607%3A0x2addc309b6ccace9!2z6Jek5bSO44OW44Or44O844OZ44Oq44O844OV44Kh44O844Og!5e0!3m2!1sja!2sjp!4v1699884765695!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "■摘み放題 (1時間) 3300円/1 kg入場料:小学生以上：1200円未就学児　：700円",
-    "parkingBrief": "無料",
-    "priceValue": 3300,
-    "hasTakeout": false,
-    "seasonBrief": "午前：9:00～12:00　午後：13:00～15:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -1977,7 +2596,10 @@
     "categorySlug": "chiba",
     "title": "孫の手ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-750",
+      "srcUrl": "/images/blueberry/blueberry-31.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -1990,7 +2612,30 @@
     },
     "publishedAt": "2023-11-19T19:00:13+09:00",
     "updatedAt": "2023-11-22T23:58:55+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "孫の手ブルーベリー園",
+      "住所": "〒292-0812 千葉県木更津市矢那3719",
+      "料金": "5歳以上1000円<br>5歳未満500円",
+      "電話番号": "<a href=\"tel:0438-38-4233\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">0438-38-4233</a>",
+      "営業時間": "9:00～16:00<br>※7月中旬～9月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR内房線「木更津駅」より約 5.9 km<br>館山道「君津IC」より約 6 km<br><a href=\"https://rakofuru.com/farm/magonote/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/magonote/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://imra8236.wixsite.com/magonoteblueberry\" target=\"_blank\" rel=\"noreferrer noopener\">https://imra8236.wixsite.com/magonoteblueberry</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "5歳以上1000円5歳未満500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※7月中旬～9月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2009,15 +2654,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13016.62761636823!2d139.961425!3d35.3517522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60180ba376157f4b%3A0xa47b28e05bdbd9bd!2z5a2r44Gu5omL44OW44Or44O844OZ44Oq44O85ZyS!5e0!3m2!1sja!2sjp!4v1699884590370!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "5歳以上1000円5歳未満500円",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -2026,7 +2662,10 @@
     "categorySlug": "chiba",
     "title": "ブルーベリー園のらり・くらり",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-752",
+      "srcUrl": "/images/blueberry/blueberry-10.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2039,7 +2678,30 @@
     },
     "publishedAt": "2023-11-19T20:06:46+09:00",
     "updatedAt": "2024-02-11T02:52:13+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ブルーベリー園のらり・くらり",
+      "住所": "〒292-0201 千葉県木更津市真里谷4832-1",
+      "料金": "中学生以上：1000円<br>小学生以上：500円",
+      "電話番号": "<a href=\"tel:080-8434-1212\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-8434-1212</a>",
+      "営業時間": "9:00～17:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "なし",
+      "アクセス": "JR久留里線「馬来田駅」より約 4.7 km<br>圏央道「木更津東IC」より約 6.2 km<br><a href=\"https://rakofuru.com/farm/norarikurari/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/norarikurari/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.norarikurari.net/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.norarikurari.net/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2058,16 +2720,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13014.367369447727!2d140.1044699!3d35.3657744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022a41c067bba89%3A0x15ba3a7ecb3632f7!2z44OW44Or44O844OZ44Oq44O85ZyS44Gu44KJ44KK44O744GP44KJ44KK!5e0!3m2!1sja!2sjp!4v1699884412594!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -2076,7 +2728,10 @@
     "categorySlug": "chiba",
     "title": "浅野フルーツ園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-754",
+      "srcUrl": "/images/blueberry/blueberry-21.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2089,7 +2744,29 @@
     },
     "publishedAt": "2023-11-19T20:14:30+09:00",
     "updatedAt": "2023-11-25T10:50:04+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "浅野フルーツ園",
+      "住所": "〒265-0051 千葉県千葉市若葉区中野町12",
+      "料金": "要問い合わせ",
+      "電話番号": "<a href=\"tel:043-228-1840\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-228-1840</a>",
+      "営業時間": "8:00～17:00<br>※7月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "期間中無休",
+      "アクセス": "JR外房線「土気駅」より約 8 km<br>千葉東金道路「山田IC」より約 1.5 km<br><a href=\"https://rakofuru.com/farm/asano-fruits/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/asano-fruits/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "バス不可"
+    },
+    "pricingBrief": "要問い合わせ",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "8:00～17:00※7月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "8:00～17:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2108,16 +2785,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12981.099636088356!2d140.2876921!3d35.5716059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60229447c1a32b17%3A0xe00b8f1552f34c59!2z5rWF6YeO44OV44Or44O844OE5ZyS!5e0!3m2!1sja!2sjp!4v1699884165487!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "要問い合わせ",
-    "parkingBrief": "無料",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "8:00～17:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -2126,7 +2793,10 @@
     "categorySlug": "chiba",
     "title": "遠山ブルーベリー農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-759",
+      "srcUrl": "/images/blueberry/blueberry-13.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2139,7 +2809,29 @@
     },
     "publishedAt": "2023-11-19T20:22:26+09:00",
     "updatedAt": "2024-10-05T17:17:57+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "遠山ブルーベリー農園",
+      "住所": "〒299-1759 千葉県富津市寺尾95",
+      "料金": "摘み取り 1,600円/kg<br>販売 2,000円/kg",
+      "電話番号": "<a href=\"tel:090-5215-5205\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-5215-5205</a>",
+      "営業時間": "8:00～18:00　最終入場17:00<br>※7月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "火曜日",
+      "アクセス": "JR内房線「上総湊駅」より約 5.5 km<br>東関道「富津中央IC」より約 8.0 km<br><a href=\"https://rakofuru.com/farm/toyama-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/toyama-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"http://blueberryhill95.com/info/\" target=\"_blank\" rel=\"noreferrer noopener\">http://blueberryhill95.com/info/</a>",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "摘み取り 1,600円/kg販売 2,000円/kg",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "8:00～18:00　最終入場17:00※7月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 600,
+    "hasTakeout": false,
+    "seasonBrief": "8:00～18:00　最終入場17:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2158,16 +2850,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13037.085984786176!2d139.92032!3d35.224611!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601805f2349ebf39%3A0x378cfbf526b7804b!2z6YGg5bGx44OW44Or44O844OZ44Oq44O86L6y5ZyS!5e0!3m2!1sja!2sjp!4v1699882515542!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "摘み取り 1,600円/kg販売 2,000円/kg",
-    "parkingBrief": "無料",
-    "priceValue": 600,
-    "hasTakeout": false,
-    "seasonBrief": "8:00～18:00　最終入場17:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -2176,7 +2858,10 @@
     "categorySlug": "chiba",
     "title": "ふるさとファーム",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-761",
+      "srcUrl": "/images/blueberry/blueberry-25.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2189,7 +2874,28 @@
     },
     "publishedAt": "2023-11-19T20:26:49+09:00",
     "updatedAt": "2023-11-29T01:50:28+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ふるさとファーム",
+      "住所": "〒290-0162 千葉県市原市金剛地1190",
+      "料金": "中学生以上：1,200円<br>小学生以上：600円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:043-663-6001\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-663-6001</a>",
+      "営業時間": "10:00～17:00<br>※6中旬～7月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR外房線「土気駅」より約 8.6 km<br>圏央道「茂原北IC」より約 3.1 km<br><a href=\"https://rakofuru.com/farm/furusato-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/furusato-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.furusato-f.jp/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.furusato-f.jp/</a>",
+      "支払い方法": "現金",
+      "備考": "持ち帰り：200円/100g"
+    },
+    "pricingBrief": "1,200円小学生以上：600円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～17:00※6中旬～7月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 200,
+    "hasTakeout": true,
+    "seasonBrief": "10:00～17:006～7月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2209,15 +2915,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "1,200円小学生以上：600円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 200,
-    "hasTakeout": true,
-    "seasonBrief": "10:00～17:00※6～7月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -2226,7 +2923,10 @@
     "categorySlug": "chiba",
     "title": "グリーンファーム栗原",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-764",
+      "srcUrl": "/images/blueberry/blueberry-26.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2239,7 +2939,30 @@
     },
     "publishedAt": "2023-11-19T20:31:07+09:00",
     "updatedAt": "2024-10-05T17:05:34+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "グリーンファーム栗原",
+      "住所": "〒270-1444 千葉県柏市若白毛996",
+      "料金": "中学生以上：500円<br>小学生以下：200円",
+      "電話番号": "<a href=\"tel:090-8037-7379\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-8037-7379</a>",
+      "営業時間": "9:00～16:00<br>※6月上旬～8月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月･金曜日",
+      "アクセス": "JR上野東京ライン「我孫子駅」より約 7.0 km<br>常磐道「柏IC」より約 13.1 km<br><a href=\"https://rakofuru.com/farm/gf-kurihara/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/gf-kurihara/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式SNS URL": "<a href=\"https://www.instagram.com/greenfarmkurihara\">https://www.instagram.com/greenfarmkurihara</a>",
+      "支払い方法": "現金",
+      "備考": "摘み取りのみ 300円/100g"
+    },
+    "pricingBrief": "500円小学生以下：200円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～8月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 500,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2258,16 +2981,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12938.092456950344!2d140.0205863!3d35.8361745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022791f011b594b%3A0xea4efec5a2d4797b!2z44Kw44Oq44O844Oz44OV44Kh44O844Og5qCX5Y6fIOODluODq-ODvOODmeODquODvOWckg!5e0!3m2!1sja!2sjp!4v1699881919216!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "500円小学生以下：200円",
-    "parkingBrief": "無料",
-    "priceValue": 500,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -2276,7 +2989,10 @@
     "categorySlug": "chiba",
     "title": "東金ジャンボブルーベリー",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-766",
+      "srcUrl": "/images/blueberry/blueberry-10.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2289,7 +3005,30 @@
     },
     "publishedAt": "2023-11-19T20:37:42+09:00",
     "updatedAt": "2024-02-11T03:04:21+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "東金ジャンボブルーベリー",
+      "住所": "〒283-0823 千葉県東金市山田1182-1",
+      "料金": "高校生以上：平日｜1700円<br>　　　　　　休日｜2200円<br><br>小学生以上：平日｜800円<br>　　　　　　休日｜1100円<br><br>未就学児：無料",
+      "電話番号": "<a href=\"tel:070-6561-3046\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">070-6561-3046</a>",
+      "営業時間": "9:00～17:00　最終入場16:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR外房線「土気駅」より約 6.7 km<br>東金道路「中野IC」より約 4.2 km<br><a href=\"https://rakofuru.com/farm/togane-jumbo-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/togane-jumbo-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://ex-farm.net/\" target=\"_blank\" rel=\"noreferrer noopener\">https://ex-farm.net/</a>",
+      "支払い方法": "現金",
+      "備考": "シーズンパス : 6000円"
+    },
+    "pricingBrief": "高校生以上：平日｜1700円　　　　　　休日｜2200円小学生以上：平日｜800円　　　　　　休日｜1100円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終入場16:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1700,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終入場16:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2308,16 +3047,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12981.915537340274!2d140.2910232!3d35.5665702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022958fd19b13d9%3A0x20ce38927e96a345!2z5p2x6YeR44K444Oj44Oz44Oc44OW44Or44O844OZ44Oq44O8IOOCqOOCr-OCueODleOCoeODvOODoCAt5qW15LiK44OW44Or44O844OZ44Oq44O85L2T6aiTLQ!5e0!3m2!1sja!2sjp!4v1699881750322!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "高校生以上：平日｜1700円　　　　　　休日｜2200円小学生以上：平日｜800円　　　　　　休日｜1100円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1700,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終入場16:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -2326,7 +3055,10 @@
     "categorySlug": "chiba",
     "title": "猪野ナーセリー",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-769",
+      "srcUrl": "/images/blueberry/blueberry-12.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2339,7 +3071,30 @@
     },
     "publishedAt": "2023-11-19T20:44:44+09:00",
     "updatedAt": "2024-10-05T16:38:39+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "猪野ナーセリー",
+      "住所": "〒265-0041 千葉県千葉市若葉区富田町",
+      "料金": "※詳細な料金は農園へお問い合わせください",
+      "電話番号": "<a href=\"tel:080-2263-8666\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-2263-8666</a>",
+      "営業時間": "9:00～17:00<br>※6月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "火曜",
+      "アクセス": "JR外房線「誉田駅」より約 9.1 km<br>東金道路「高田IC」より約 5.8 km<br><a href=\"https://rakofuru.com/farm/ino-nursery/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/ino-nursery/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "※詳細な料金は農園へお問い合わせください",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※6月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 0,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2358,16 +3113,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12975.597752071199!2d140.2394336!3d35.6055471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022916128ffa1a3%3A0xb66f532fc4217d0e!2z54yq6YeO44OK44O844K744Oq44O8!5e0!3m2!1sja!2sjp!4v1700394155491!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "※詳細な料金は農園へお問い合わせください",
-    "parkingBrief": "無料",
-    "priceValue": 0,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -2376,7 +3121,10 @@
     "categorySlug": "chiba",
     "title": "山田農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-771",
+      "srcUrl": "/images/blueberry/blueberry-09.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2389,7 +3137,29 @@
     },
     "publishedAt": "2023-11-19T20:49:41+09:00",
     "updatedAt": "2024-08-21T23:45:41+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "山田農園",
+      "住所": "〒299-4404 千葉県長生郡睦沢町北山田121-1",
+      "料金": "中学生以上：800円<br>小学生以上：300円",
+      "電話番号": "<a href=\"tel:090-4025-0757\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-4025-0757</a>",
+      "営業時間": "9:00～15:00<br>※7月中旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "水・木",
+      "アクセス": "JR外房線「上総一ノ宮駅」より約 5.1 km<br>圏央道「茂原長南IC」より約 10.9 km<br><a href=\"https://rakofuru.com/farm/yamada-farm/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/yamada-farm/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": "持ち帰り :  300円/100g"
+    },
+    "pricingBrief": "800円小学生以上：300円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～15:00※7月中旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 800,
+    "hasTakeout": true,
+    "seasonBrief": "9:00～15:007月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2409,16 +3179,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "800円小学生以上：300円",
-    "parkingBrief": "無料",
-    "priceValue": 800,
-    "hasTakeout": true,
-    "seasonBrief": "9:00～15:00※7月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7,
-      8
     ]
   },
   {
@@ -2427,7 +3187,10 @@
     "categorySlug": "chiba",
     "title": "観光農園ジジの山",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-773",
+      "srcUrl": "/images/blueberry/blueberry-21.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2440,7 +3203,30 @@
     },
     "publishedAt": "2023-11-19T20:52:27+09:00",
     "updatedAt": "2023-12-28T02:21:52+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "観光農園ジジの山",
+      "住所": "〒299-1112 千葉県君津市泉718-3",
+      "料金": "中学生以上：1000円<br>小学生以上：500円",
+      "電話番号": "<a href=\"tel:0439-27-1555\" data-type=\"tel\" data-id=\"tel:0439-27-1555\">0439-27-1555</a> / <a href=\"tel:090-3312-8621\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">090-3312-8621</a>",
+      "営業時間": "9:00～17:00　最終受付15:00<br>※6月上旬～8月下旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR内房線「君津駅」より約 8.5 km<br>館山道「君津IC」より約 4.0 km<br><a href=\"https://rakofuru.com/farm/jiji-no-mori/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/jiji-no-mori/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "",
+      "支払い方法": "現金",
+      "備考": ""
+    },
+    "pricingBrief": "1000円小学生以上：500円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00　最終受付15:00※6月上旬～8月下旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "9:00～17:00　最終受付15:006月～8月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2459,16 +3245,6 @@
     "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.5115658160344!2d139.9450778!3d35.2932683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601809370ee8e7e1%3A0xd1f0604e270ae6ad!2z6Kaz5YWJ6L6y5ZyS44K444K444Gu5bGx!5e0!3m2!1sja!2sjp!4v1699877303348!5m2!1sja!2sjp",
     "features": [
       "駐車場あり"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "9:00～17:00　最終受付15:00※6月～8月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6,
-      8
     ]
   },
   {
@@ -2477,7 +3253,10 @@
     "categorySlug": "chiba",
     "title": "真行寺ブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-775",
+      "srcUrl": "/images/blueberry/blueberry-18.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2490,7 +3269,31 @@
     },
     "publishedAt": "2023-11-19T20:55:02+09:00",
     "updatedAt": "2023-12-28T02:30:47+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "真行寺ブルーベリー園",
+      "住所": "〒289-1104 千葉県八街市文違301",
+      "料金": "中学生以上：1500円<br>3歳以上：1000円",
+      "電話番号": "<a href=\"tel:080-3601-6843\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-3601-6843</a>",
+      "営業時間": "9:00～16:00<br>※6月上旬～9月中旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "",
+      "アクセス": "JR総武本線「榎戸駅」より約 3.0 km<br>東関道「酒々井IC」より約 5.4 km<br><a href=\"https://rakofuru.com/farm/shingyoji-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/shingyoji-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://blueberry.okoshi-yasu.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://blueberry.okoshi-yasu.com/</a>",
+      "支払い方法": "現金",
+      "備考": "お持ち帰り：7/19まで100g / 400円、7/20から100g / 300円"
+    },
+    "pricingBrief": "1500円3歳以上：1000円",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～16:00※6月上旬～9月中旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1500,
+    "hasTakeout": true,
+    "seasonBrief": "9:00～16:006月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2510,15 +3313,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "1500円3歳以上：1000円",
-    "parkingBrief": "無料",
-    "priceValue": 1500,
-    "hasTakeout": true,
-    "seasonBrief": "9:00～16:00※6月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6
     ]
   },
   {
@@ -2527,7 +3321,10 @@
     "categorySlug": "chiba",
     "title": "八街ブルーベリーファーム 春夫観光農園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-777",
+      "srcUrl": "/images/blueberry/blueberry-19.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2540,7 +3337,30 @@
     },
     "publishedAt": "2023-11-19T20:57:12+09:00",
     "updatedAt": "2023-12-28T02:12:21+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "八街ブルーベリーファーム 春夫観光農園",
+      "住所": "〒289-1100 千葉県八街市八街へ-199-1360",
+      "料金": "中学生以上：1200円<br>小学生以上：600円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:080-1147-9783\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">080-1147-9783</a>",
+      "営業時間": "10:00～17:00<br>※7月上旬～9月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "不定休",
+      "アクセス": "JR総武本線「八街駅」より約 4.5 km<br>東関道「佐倉IC」より約 10.7 km<br><a href=\"https://rakofuru.com/farm/yachimata-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/yachimata-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://sisi111.wixsite.com/mysite-1\" target=\"_blank\" rel=\"noreferrer noopener\">https://sisi111.wixsite.com/mysite-1</a>",
+      "支払い方法": "現金",
+      "備考": "お持ち帰り 250g/600円"
+    },
+    "pricingBrief": "1200円小学生以上：600円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "10:00～17:00※7月上旬～9月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1200,
+    "hasTakeout": true,
+    "seasonBrief": "10:00～17:007月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2560,61 +3380,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [
-      {
-        "id": "c1",
-        "author": "ムッシュ",
-        "date": "2025/04/11",
-        "content": "昨日　行きました。\nここのおじさんは腕の良い庭師です。\nしかもバイクも乗ります。私もバイクで行った\nので園の中をたっぷり案内していただきました。\n樹木の疑問には何でも答えてくれます。\n楽しい時間でした。若い社長も優しいです。\nベリーの時期にはかみさんといきます。",
-        "replies": [
-          {
-            "id": "r1",
-            "author": "八街ブルーベリーファーム 春夫観光農園",
-            "date": "2025/08/14",
-            "content": "ムッシュ、ありがとうございます。ソーラーパネルの下ですので、日影が多いので、涼しくブルー狩りができます。入場料も１２００円、お土産、約３００gが付きます。９月いっぱいやっていますので、どうぞ御来園ください。",
-            "isOwner": true
-          }
-        ]
-      },
-      {
-        "id": "c2",
-        "author": "Mia (Area 52)",
-        "date": "2025/06/03",
-        "content": "Nice share!",
-        "replies": [
-          {
-            "id": "r2",
-            "author": "八街ブルーベリーファーム 春夫観光農園",
-            "date": "2025/08/14",
-            "content": "せんきゅー",
-            "isOwner": true
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "author": "あっこ",
-        "date": "2025/07/14",
-        "content": "昨日、孫（4歳）２人、娘２人と一緒に行きました。\nスタッフの方がとても親切で、いろいろ教えてくださり、それぞれの種類の味を比べながら味わい、たくさん摘んできました。美味しかったてす。\n手作りのブランコやハンモックに乗ったり、烏骨鶏をみたり、孫も楽しんでいました。\nまた行きます。ありがとうございました。",
-        "replies": [
-          {
-            "id": "r3",
-            "author": "八街ブルーベリーファーム 春夫観光農園",
-            "date": "2025/08/14",
-            "content": "ありがとうございました。子供用のプールもあります。今度は着替えを持ってきて、プールで楽しんでください。お待ちしております。",
-            "isOwner": true
-          }
-        ]
-      }
-    ],
-    "pricingBrief": "1200円小学生以上：600円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1200,
-    "hasTakeout": true,
-    "seasonBrief": "10:00～17:00※7月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      7
     ]
   },
   {
@@ -2623,7 +3388,10 @@
     "categorySlug": "chiba",
     "title": "ほかりブルーベリー園",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-779",
+      "srcUrl": "/images/blueberry/blueberry-36.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2636,7 +3404,31 @@
     },
     "publishedAt": "2023-11-19T20:59:47+09:00",
     "updatedAt": "2025-08-18T16:42:55+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "ほかりブルーベリー園",
+      "住所": "〒266-0004 千葉県千葉市緑区平川町2139",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>3歳以上：200円<br>3歳未満：無料",
+      "電話番号": "<a href=\"http://070-9190-8811\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">070-9190-8811</a>",
+      "営業時間": "平日｜10:00～15:00<br>休日｜9:00～16:00<br>※6月上旬～9月上旬(予定)<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日 , 雨天",
+      "アクセス": "JR外房線「誉田駅」より約 3.7 km<br>東金道路「高田IC」より約 6.8 km<br><a href=\"https://rakofuru.com/farm/hokari-blueberry/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/hokari-blueberry/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://hokari-blueberry.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://hokari-blueberry.com/</a>",
+      "支払い方法": "現金",
+      "備考": "持ち帰り<br>800~900g/1200円<br>500~600g/1000円<br>300~400g/800円"
+    },
+    "pricingBrief": "1000円小学生以上：500円3歳以上：200円3歳未満：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "平日｜10:00～15:00休日｜9:00～16:00※6月上旬～9月上旬(予定)※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": true,
+    "seasonBrief": "平日｜10:00～15:00休日｜9:00～16:006月～9月詳細な摘み取り時期は農園へお問い合わせください",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2656,15 +3448,6 @@
     "features": [
       "駐車場あり",
       "持ち帰り可"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円3歳以上：200円3歳未満：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": true,
-    "seasonBrief": "平日｜10:00～15:00休日｜9:00～16:00※6月～9月※詳細な摘み取り時期は農園へお問い合わせください",
-    "seasonMonths": [
-      6
     ]
   },
   {
@@ -2673,7 +3456,10 @@
     "categorySlug": "chiba",
     "title": "エザワフルーツランド",
     "heroImage": {
-      "srcUrl": "/images/farm-0.png",
+      "id": "farm-781",
+      "srcUrl": "/images/blueberry/blueberry-10.svg",
+      "alt": null,
+      "title": null,
       "width": 800,
       "height": 600
     },
@@ -2686,7 +3472,26 @@
     },
     "publishedAt": "2023-11-19T21:06:45+09:00",
     "updatedAt": "2025-05-15T23:28:17+09:00",
-    "infoTable": {},
+    "infoTable": {
+      "農園名": "エザワフルーツランド",
+      "住所": "〒292-0201 千葉県木更津市真里谷3832",
+      "料金": "中学生以上：1000円<br>小学生以上：500円<br>未就学児：無料",
+      "電話番号": "<a href=\"tel:043-853-5160\" data-type=\"tel\" data-id=\"tel:090-2726-9413\">043-853-5160</a>",
+      "営業時間": "9:00～17:00<br>※詳細な摘み取り時期は農園へお問い合わせください",
+      "定休日": "月曜日<br>※月曜祝日は営業",
+      "アクセス": "<br>JR久留里線「馬来田駅」より約 3 km<br>圏央道「木更津東IC」より約 4 km<br><a href=\"https://rakofuru.com/farm/ezawa-fruitsland/#access\">■詳細はコチラ</a>",
+      "駐車場": "あり｜無料<br><a href=\"https://rakofuru.com/farm/ezawa-fruitsland/#parking\" data-type=\"link\" data-id=\"https://rakofuru.com/chiba/ezawa-fruitsland/#parking\">■詳細はコチラ</a>",
+      "公式サイトURL": "<a href=\"https://www.ezawafl.com/\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.ezawafl.com/</a>",
+      "支払い方法": "現金",
+      "備考": "要予約、ペット禁止"
+    },
+    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
+    "parkingBrief": "無料■詳細はコチラ",
+    "hoursBrief": "9:00～17:00※詳細な摘み取り時期は農園へお問い合わせください",
+    "priceValue": 1000,
+    "hasTakeout": false,
+    "seasonBrief": "",
+    "seasonMonths": [],
     "sections": [
       {
         "title": "Google Map 口コミ",
@@ -2706,13 +3511,6 @@
     "features": [
       "駐車場あり",
       "要予約"
-    ],
-    "comments": [],
-    "pricingBrief": "1000円小学生以上：500円未就学児：無料",
-    "parkingBrief": "無料",
-    "priceValue": 1000,
-    "hasTakeout": false,
-    "seasonBrief": "",
-    "seasonMonths": []
+    ]
   }
 ]

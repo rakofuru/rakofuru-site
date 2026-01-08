@@ -3,11 +3,12 @@ import { notFound } from "next/navigation"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { getPageBySlug, pages } from "@/lib/data"
+import { getSiteUrl } from "@/lib/site"
 
 export const dynamicParams = false
 
 interface PageProps {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }
 
 export async function generateStaticParams() {
@@ -17,7 +18,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params
+  const { slug } = params
   const page = getPageBySlug(slug)
 
   if (!page) {
@@ -26,16 +27,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   }
 
+  const baseUrl = getSiteUrl()
+
   return {
     title: `${page.title} - らこふる`,
     alternates: {
-      canonical: page.legacy.wpPermalink,
+      canonical: `${baseUrl}/${page.slug}`,
     },
   }
 }
 
 export default async function Page({ params }: PageProps) {
-  const { slug } = await params
+  const { slug } = params
   const page = getPageBySlug(slug)
 
   if (!page) {
